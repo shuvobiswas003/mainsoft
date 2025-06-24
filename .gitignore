@@ -31,6 +31,8 @@ uploads/
 media/
 files/
 vendor/
+img/
+
 
 # Composer dependencies (if used)
 
@@ -52,5 +54,4 @@ node_modules/
 *.sql
 
 # Git itself
-.gitignore
-.gitattributes
+.git/
