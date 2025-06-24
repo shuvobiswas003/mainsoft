@@ -1,12 +1,9 @@
 # XAMPP or general server config files
 *.log
 *.tmp
-*.bak
 *.swp
 *.swo
-*.db
 *.sqlite
-*.sql
 
 # Operating system files
 .DS_Store
@@ -21,37 +18,36 @@ Desktop.ini
 *.sublime-project
 
 # Cache/temp folders
-cache/
-tmp/
-temp/
-logs/
+/cache/
+/tmp/
+/temp/
+/logs/
 
 # Uploads or media folders (optional, if user uploads go here)
-uploads/
-media/
-files/
-vendor/
-img/
+/uploads/
+/media/
+/files/
+/vendor/
+/img/
 
+# Composer dependencies
+/vendor/
 
-# Composer dependencies (if used)
-
-
-# Node dependencies (if any frontend used)
-node_modules/
+# Node dependencies
+/node_modules/
 
 # Environment files
 .env
 .env.*
 
-# Backup & ZIP files
+# Backup & ZIP files - but exclude specific backup folder
 *.zip
 *.tar.gz
 *.rar
 *.7z
-*.bak
 *.old
-*.sql
+*.bak
+!backup/*.sql
 
 # Git itself
 .git/
