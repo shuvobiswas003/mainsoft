@@ -1,0 +1,644 @@
+[22-Feb-2025 03:41:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/leftmenu.php(302): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/printidcardroll.php(13): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:41:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/leftmenu.php(38): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/printidcardroll.php(13): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:41:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/topheader.php(13): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/printidcardroll.php(12): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:41:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/topheader.php(13): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/printidcardroll.php(12): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:41:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/leftmenu.php(38): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/printidcardroll.php(13): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:41:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/leftmenu.php(38): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/printidcardroll.php(13): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:42:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/topheader.php(13): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/printidcardroll.php(12): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:43:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/dbconfig.php:10
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/dbconfig.php(10): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/login.php(12): require_once('/home/zpscedu/p...')
+#2 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/dbconfig.php on line 10
+[22-Feb-2025 03:43:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/inc/leftmenu.php(38): require('/home/zpscedu/p...')
+#2 /home/zpscedu/public_html/mysoft/2025/data/dashboard.php(13): include('/home/zpscedu/p...')
+#3 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 04:10:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[22-Feb-2025 05:58:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[22-Feb-2025 15:38:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[22-Feb-2025 18:31:33 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[23-Feb-2025 01:10:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[23-Feb-2025 12:56:44 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[23-Feb-2025 12:56:44 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[23-Feb-2025 12:56:44 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 07:37:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 07:37:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 07:37:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 07:45:40 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 07:45:40 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 07:45:40 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 12:23:54 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 12:23:54 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 12:23:54 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 12:25:31 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 12:25:31 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 12:25:31 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 14:23:16 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 14:23:16 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 14:23:16 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 14:26:01 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 14:26:01 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 14:26:01 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 14:28:14 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 14:28:14 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 14:28:14 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 15:39:08 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 15:39:08 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 15:39:08 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 15:56:25 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Feb-2025 15:56:25 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Feb-2025 15:56:25 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Feb-2025 20:27:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[24-Feb-2025 21:25:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[25-Feb-2025 02:35:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[25-Feb-2025 05:25:11 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 05:25:11 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 05:25:11 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 05:25:49 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 05:25:49 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 05:25:49 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 07:50:15 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 07:50:15 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 07:50:15 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 07:50:23 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 07:50:23 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 07:50:23 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 07:50:45 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 07:50:45 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 07:50:45 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 09:46:56 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 09:46:56 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 09:46:56 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 12:32:46 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 12:32:46 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 12:32:46 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 12:35:25 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 12:35:25 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 12:35:25 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 12:35:57 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 12:35:57 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 12:35:57 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 13:14:14 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 13:14:14 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 13:14:14 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 13:14:50 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 13:14:50 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 13:14:50 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 13:15:34 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 13:15:34 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 13:15:34 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 13:17:16 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 13:17:16 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 13:17:16 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 13:20:51 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 13:20:51 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 13:20:51 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 13:43:14 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 13:43:14 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 13:43:14 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 14:38:47 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 14:38:47 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 14:38:47 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-Feb-2025 16:48:03 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Feb-2025 16:48:03 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Feb-2025 16:48:03 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-Feb-2025 07:51:57 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-Feb-2025 07:51:57 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-Feb-2025 07:51:57 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-Feb-2025 07:52:31 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-Feb-2025 07:52:31 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-Feb-2025 07:52:31 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-Feb-2025 15:58:17 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-Feb-2025 15:58:17 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-Feb-2025 15:58:17 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 02:06:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[27-Feb-2025 02:28:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[27-Feb-2025 08:40:46 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 08:40:46 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 08:40:46 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 08:41:24 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 08:41:24 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 08:41:24 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 09:01:28 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 09:01:28 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 09:01:28 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 09:04:03 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 09:04:03 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 09:04:03 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 09:05:38 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 09:05:38 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 09:05:38 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 09:06:16 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 09:06:16 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 09:06:16 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 09:37:43 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 09:37:43 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 09:37:43 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 11:12:32 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 11:12:32 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 11:12:32 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 11:17:39 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 11:17:39 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 11:17:39 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 11:17:49 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 11:17:49 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 11:17:49 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Feb-2025 11:18:13 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Feb-2025 11:18:13 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Feb-2025 11:18:13 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Feb-2025 08:00:37 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Feb-2025 08:00:37 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Feb-2025 08:00:37 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Feb-2025 08:00:51 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Feb-2025 08:00:51 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Feb-2025 08:00:51 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Feb-2025 08:02:36 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Feb-2025 08:02:36 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Feb-2025 08:02:36 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Feb-2025 08:02:47 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Feb-2025 08:02:47 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Feb-2025 08:02:47 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Feb-2025 08:03:01 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Feb-2025 08:03:01 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Feb-2025 08:03:01 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Feb-2025 08:03:11 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Feb-2025 08:03:11 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Feb-2025 08:03:11 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Feb-2025 15:08:02 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Feb-2025 15:08:02 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Feb-2025 15:08:02 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Mar-2025 01:57:20 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-Mar-2025 01:57:20 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-Mar-2025 01:57:20 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Mar-2025 01:58:05 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-Mar-2025 01:58:05 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-Mar-2025 01:58:05 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Mar-2025 01:58:36 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-Mar-2025 01:58:36 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-Mar-2025 01:58:36 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Mar-2025 16:10:18 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-Mar-2025 16:10:18 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-Mar-2025 16:10:18 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Mar-2025 16:11:11 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-Mar-2025 16:11:11 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-Mar-2025 16:11:11 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Mar-2025 16:13:56 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-Mar-2025 16:13:56 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-Mar-2025 16:13:56 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[04-Mar-2025 09:35:31 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[04-Mar-2025 09:35:31 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[04-Mar-2025 09:35:31 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[05-Mar-2025 07:39:36 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[05-Mar-2025 07:39:36 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[05-Mar-2025 07:39:36 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Mar-2025 10:24:17 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Mar-2025 10:24:17 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Mar-2025 10:24:17 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[11-Mar-2025 12:48:30 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[11-Mar-2025 12:48:30 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[11-Mar-2025 12:48:30 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[11-Mar-2025 12:48:42 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[11-Mar-2025 12:48:42 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[11-Mar-2025 12:48:42 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[13-Mar-2025 22:54:35 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[13-Mar-2025 22:54:35 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[13-Mar-2025 22:54:35 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-Mar-2025 09:17:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-Mar-2025 09:17:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-Mar-2025 09:17:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-Mar-2025 17:08:25 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-Mar-2025 17:08:25 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-Mar-2025 17:08:25 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[16-Mar-2025 01:41:27 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[16-Mar-2025 01:41:27 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[16-Mar-2025 01:41:27 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[16-Mar-2025 03:43:44 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[16-Mar-2025 03:43:44 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[16-Mar-2025 03:43:44 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[16-Mar-2025 03:44:07 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[16-Mar-2025 03:44:07 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[16-Mar-2025 03:44:07 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[17-Mar-2025 09:07:46 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[17-Mar-2025 09:07:46 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[17-Mar-2025 09:07:46 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[17-Mar-2025 09:09:24 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[17-Mar-2025 09:09:24 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[17-Mar-2025 09:09:24 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[18-Mar-2025 14:18:59 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[18-Mar-2025 14:18:59 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[18-Mar-2025 14:18:59 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[20-Mar-2025 05:29:00 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[20-Mar-2025 05:29:00 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[20-Mar-2025 05:29:00 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[20-Mar-2025 16:31:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[20-Mar-2025 16:31:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[20-Mar-2025 16:31:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[21-Mar-2025 06:07:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[25-Mar-2025 16:08:59 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-Mar-2025 16:08:59 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-Mar-2025 16:08:59 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Mar-2025 14:41:26 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Mar-2025 14:41:26 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Mar-2025 14:41:26 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Apr-2025 16:05:30 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-Apr-2025 16:05:30 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-Apr-2025 16:05:30 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[07-Apr-2025 17:52:39 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[07-Apr-2025 17:52:39 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[07-Apr-2025 17:52:39 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 01:51:37 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 01:51:37 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 01:51:37 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 02:03:44 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 02:03:44 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 02:03:44 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 02:30:02 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 02:30:02 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 02:30:02 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 02:30:19 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 02:30:19 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 02:30:19 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 02:30:31 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 02:30:31 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 02:30:31 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 07:50:35 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 07:50:35 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 07:50:35 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 07:50:58 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 07:50:58 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 07:50:58 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 07:51:05 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 07:51:05 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 07:51:05 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 15:50:45 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 15:50:45 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 15:50:45 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[09-Apr-2025 15:51:39 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[09-Apr-2025 15:51:39 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[09-Apr-2025 15:51:39 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[10-Apr-2025 08:38:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[10-Apr-2025 08:38:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[10-Apr-2025 08:38:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[10-Apr-2025 08:39:27 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[10-Apr-2025 08:39:27 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[10-Apr-2025 08:39:27 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[10-Apr-2025 13:09:11 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[10-Apr-2025 13:09:11 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[10-Apr-2025 13:09:11 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[10-Apr-2025 13:16:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[10-Apr-2025 18:58:02 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[10-Apr-2025 18:58:02 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[10-Apr-2025 18:58:02 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[11-Apr-2025 15:28:33 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[11-Apr-2025 15:28:33 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[11-Apr-2025 15:28:33 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[11-Apr-2025 16:21:23 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[11-Apr-2025 16:21:23 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[11-Apr-2025 16:21:23 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[12-Apr-2025 17:16:02 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[12-Apr-2025 17:16:02 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[12-Apr-2025 17:16:02 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[13-Apr-2025 11:12:52 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[13-Apr-2025 11:12:52 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[13-Apr-2025 11:12:52 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[14-Apr-2025 03:05:02 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[14-Apr-2025 03:05:02 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[14-Apr-2025 03:05:02 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[14-Apr-2025 03:05:25 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[14-Apr-2025 03:05:25 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[14-Apr-2025 03:05:25 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[14-Apr-2025 03:05:35 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[14-Apr-2025 03:05:35 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[14-Apr-2025 03:05:35 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-Apr-2025 12:55:18 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-Apr-2025 12:55:18 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-Apr-2025 12:55:18 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-Apr-2025 13:41:46 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-Apr-2025 13:41:46 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-Apr-2025 13:41:46 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-Apr-2025 13:42:27 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-Apr-2025 13:42:27 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-Apr-2025 13:42:27 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-Apr-2025 13:42:45 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-Apr-2025 13:42:45 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-Apr-2025 13:42:45 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-Apr-2025 13:43:10 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-Apr-2025 13:43:10 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-Apr-2025 13:43:10 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[16-Apr-2025 10:12:31 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[16-Apr-2025 10:12:31 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[16-Apr-2025 10:12:31 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[17-Apr-2025 07:38:44 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[17-Apr-2025 07:38:44 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[17-Apr-2025 07:38:44 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[17-Apr-2025 07:39:19 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[17-Apr-2025 07:39:19 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[17-Apr-2025 07:39:19 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[17-Apr-2025 08:46:08 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[17-Apr-2025 08:46:08 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[17-Apr-2025 08:46:08 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[18-Apr-2025 09:25:12 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[18-Apr-2025 09:25:12 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[18-Apr-2025 09:25:12 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[20-Apr-2025 17:47:22 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[20-Apr-2025 17:47:22 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[20-Apr-2025 17:47:22 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[21-Apr-2025 02:54:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[21-Apr-2025 13:58:20 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[21-Apr-2025 13:58:20 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[21-Apr-2025 13:58:20 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[21-Apr-2025 14:45:36 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[21-Apr-2025 14:45:36 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[21-Apr-2025 14:45:36 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[21-Apr-2025 14:45:45 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[21-Apr-2025 14:45:45 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[21-Apr-2025 14:45:45 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[21-Apr-2025 16:47:49 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[21-Apr-2025 16:47:49 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[21-Apr-2025 16:47:49 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[22-Apr-2025 14:36:04 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[22-Apr-2025 14:36:04 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[22-Apr-2025 14:36:04 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[22-Apr-2025 14:36:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[22-Apr-2025 14:36:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[22-Apr-2025 14:36:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[23-Apr-2025 13:51:22 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[23-Apr-2025 13:51:22 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[23-Apr-2025 13:51:22 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[23-Apr-2025 13:53:40 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[23-Apr-2025 13:53:40 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[23-Apr-2025 13:53:40 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Apr-2025 06:53:15 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Apr-2025 06:53:15 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Apr-2025 06:53:15 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Apr-2025 10:10:21 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Apr-2025 10:10:21 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Apr-2025 10:10:21 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Apr-2025 15:37:09 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Apr-2025 15:37:09 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Apr-2025 15:37:09 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Apr-2025 15:38:19 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Apr-2025 15:38:19 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Apr-2025 15:38:19 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Apr-2025 16:35:36 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Apr-2025 16:35:36 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Apr-2025 16:35:36 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Apr-2025 16:36:40 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Apr-2025 16:36:40 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Apr-2025 16:36:40 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-Apr-2025 16:37:57 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-Apr-2025 16:37:57 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-Apr-2025 16:37:57 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-Apr-2025 06:29:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[26-Apr-2025 16:13:57 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-Apr-2025 16:13:57 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-Apr-2025 16:13:57 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Apr-2025 16:30:32 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Apr-2025 16:30:32 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Apr-2025 16:30:32 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[27-Apr-2025 16:30:35 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[27-Apr-2025 16:30:35 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[27-Apr-2025 16:30:35 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Apr-2025 01:42:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[28-Apr-2025 07:48:03 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Apr-2025 07:48:03 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Apr-2025 07:48:03 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Apr-2025 15:04:45 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Apr-2025 15:04:45 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Apr-2025 15:04:45 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Apr-2025 15:06:00 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Apr-2025 15:06:00 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Apr-2025 15:06:00 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[28-Apr-2025 15:06:54 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[28-Apr-2025 15:06:54 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[28-Apr-2025 15:06:54 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[30-Apr-2025 00:59:58 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[30-Apr-2025 02:04:39 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[30-Apr-2025 02:04:39 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[30-Apr-2025 02:04:39 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[30-Apr-2025 02:16:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[30-Apr-2025 04:15:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[30-Apr-2025 04:16:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[30-Apr-2025 04:34:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[30-Apr-2025 13:53:42 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[30-Apr-2025 13:53:42 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[30-Apr-2025 13:53:42 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[30-Apr-2025 13:53:57 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[30-Apr-2025 13:53:57 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[30-Apr-2025 13:53:57 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[30-Apr-2025 17:21:26 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[30-Apr-2025 17:21:26 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[30-Apr-2025 17:21:26 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-May-2025 15:36:55 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-May-2025 15:36:55 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-May-2025 15:36:55 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-May-2025 15:37:14 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-May-2025 15:37:14 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-May-2025 15:37:14 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-May-2025 15:38:26 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-May-2025 15:38:26 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-May-2025 15:38:26 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-May-2025 15:47:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-May-2025 15:47:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-May-2025 15:47:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-May-2025 15:49:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-May-2025 15:49:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-May-2025 15:49:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-May-2025 15:49:54 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[01-May-2025 15:49:54 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[01-May-2025 15:49:54 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[03-May-2025 02:15:14 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[03-May-2025 02:15:14 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[03-May-2025 02:15:14 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[03-May-2025 06:44:19 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[03-May-2025 06:44:19 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[03-May-2025 06:44:19 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[03-May-2025 14:38:10 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[03-May-2025 14:38:10 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[03-May-2025 14:38:10 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[04-May-2025 07:59:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[04-May-2025 08:00:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[04-May-2025 12:33:19 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[04-May-2025 12:33:19 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[04-May-2025 12:33:19 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[04-May-2025 13:18:09 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[04-May-2025 13:18:09 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[04-May-2025 13:18:09 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[04-May-2025 14:08:17 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[04-May-2025 14:08:17 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[04-May-2025 14:08:17 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[05-May-2025 07:13:37 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[05-May-2025 07:13:37 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[05-May-2025 07:13:37 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[05-May-2025 13:25:38 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[05-May-2025 13:25:38 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[05-May-2025 13:25:38 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[06-May-2025 00:30:51 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[06-May-2025 00:30:51 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[06-May-2025 00:30:51 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[06-May-2025 00:31:01 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[06-May-2025 00:31:01 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[06-May-2025 00:31:01 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[06-May-2025 03:32:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[07-May-2025 12:46:27 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[07-May-2025 12:46:27 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[07-May-2025 12:46:27 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[12-May-2025 08:07:43 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[12-May-2025 08:07:43 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[12-May-2025 08:07:43 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[12-May-2025 15:52:08 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[12-May-2025 15:52:08 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[12-May-2025 15:52:08 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[12-May-2025 15:52:50 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[12-May-2025 15:52:50 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[12-May-2025 15:52:50 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[12-May-2025 15:56:05 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[12-May-2025 15:56:05 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[12-May-2025 15:56:05 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[12-May-2025 15:59:40 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[12-May-2025 15:59:40 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[12-May-2025 15:59:40 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[12-May-2025 16:00:05 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[12-May-2025 16:00:05 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[12-May-2025 16:00:05 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-May-2025 02:26:34 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-May-2025 02:26:34 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-May-2025 02:26:34 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-May-2025 02:27:06 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-May-2025 02:27:06 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-May-2025 02:27:06 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-May-2025 05:52:02 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-May-2025 05:52:02 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-May-2025 05:52:02 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-May-2025 09:00:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[15-May-2025 10:31:05 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-May-2025 10:31:05 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-May-2025 10:31:05 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-May-2025 10:31:26 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-May-2025 10:31:26 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-May-2025 10:31:26 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-May-2025 15:34:42 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-May-2025 15:34:42 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-May-2025 15:34:42 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[15-May-2025 15:36:59 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[15-May-2025 15:36:59 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[15-May-2025 15:36:59 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[16-May-2025 05:01:22 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[16-May-2025 05:01:22 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[16-May-2025 05:01:22 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[17-May-2025 12:22:11 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[17-May-2025 12:22:11 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[17-May-2025 12:22:11 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[18-May-2025 14:05:26 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[18-May-2025 14:05:26 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[18-May-2025 14:05:26 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[19-May-2025 18:07:02 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[19-May-2025 18:07:02 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[19-May-2025 18:07:02 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[20-May-2025 14:06:04 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[20-May-2025 14:06:04 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[20-May-2025 14:06:04 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[21-May-2025 05:35:08 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[22-May-2025 03:54:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[22-May-2025 05:20:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[24-May-2025 04:55:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[24-May-2025 07:40:54 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-May-2025 07:40:54 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-May-2025 07:40:54 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-May-2025 07:41:30 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-May-2025 07:41:30 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-May-2025 07:41:30 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-May-2025 08:45:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[24-May-2025 11:27:36 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-May-2025 11:27:36 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-May-2025 11:27:36 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[24-May-2025 11:29:06 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[24-May-2025 11:29:06 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[24-May-2025 11:29:06 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-May-2025 06:18:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[25-May-2025 13:43:35 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-May-2025 13:43:35 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-May-2025 13:43:35 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-May-2025 13:44:44 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-May-2025 13:44:44 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-May-2025 13:44:44 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-May-2025 13:45:03 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-May-2025 13:45:03 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-May-2025 13:45:03 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[25-May-2025 14:04:17 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[25-May-2025 14:04:17 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[25-May-2025 14:04:17 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-May-2025 03:15:34 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-May-2025 03:15:34 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-May-2025 03:15:34 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-May-2025 03:15:47 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-May-2025 03:15:47 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-May-2025 03:15:47 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-May-2025 03:16:11 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-May-2025 03:16:11 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-May-2025 03:16:11 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-May-2025 04:52:29 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[26-May-2025 04:53:12 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[26-May-2025 18:50:57 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-May-2025 18:50:57 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-May-2025 18:50:57 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[26-May-2025 19:16:48 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[26-May-2025 19:16:48 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[26-May-2025 19:16:48 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[30-May-2025 05:34:10 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[30-May-2025 05:34:10 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[30-May-2025 05:34:10 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[31-May-2025 06:03:40 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[31-May-2025 06:03:40 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[31-May-2025 06:03:40 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106
+[01-Jun-2025 03:09:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/data/login.php on line 59
+[03-Jun-2025 03:16:58 UTC] PHP Warning:  Undefined variable $data3 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 104
+[03-Jun-2025 03:16:58 UTC] PHP Warning:  Undefined variable $data4 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 105
+[03-Jun-2025 03:16:58 UTC] PHP Warning:  Undefined variable $data6 in /home/zpscedu/public_html/mysoft/2025/data/get_student_data.php on line 106

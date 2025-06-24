@@ -1,0 +1,373 @@
+[09-Feb-2025 07:45:39 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Feb-2025 07:45:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[09-Feb-2025 07:45:39 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Feb-2025 07:45:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[09-Feb-2025 07:45:58 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Feb-2025 07:45:58 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[09-Feb-2025 08:39:37 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Feb-2025 08:39:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[09-Feb-2025 08:39:39 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Feb-2025 08:39:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Feb-2025 02:45:04 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Feb-2025 02:45:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Feb-2025 02:45:06 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Feb-2025 02:45:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Feb-2025 02:45:06 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Feb-2025 02:45:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "tran_date" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 44
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 46
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 47
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "store_amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 48
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "bank_tran_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 49
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "card_type" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 50
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "value_a" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 51
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:18:57 UTC] PHP Warning:  Undefined array key "value_b" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 52
+[10-Feb-2025 03:18:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "tran_date" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 43
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 45
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 46
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "store_amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 47
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "bank_tran_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 48
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "card_type" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 49
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "value_a" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 50
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:04 UTC] PHP Warning:  Undefined array key "value_b" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 51
+[10-Feb-2025 03:39:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "tran_date" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 43
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 45
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 46
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "store_amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 47
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "bank_tran_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 48
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "card_type" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 49
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "value_a" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 50
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:39:33 UTC] PHP Warning:  Undefined array key "value_b" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 51
+[10-Feb-2025 03:39:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "tran_date" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 43
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 45
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 46
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "store_amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 47
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "bank_tran_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 48
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "card_type" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 49
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "value_a" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 50
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 03:40:41 UTC] PHP Warning:  Undefined array key "value_b" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 51
+[10-Feb-2025 03:40:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[10-Feb-2025 08:30:08 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Feb-2025 08:30:08 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Feb-2025 12:00:35 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Feb-2025 12:00:35 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Feb-2025 12:00:37 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Feb-2025 12:00:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Feb-2025 12:00:38 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Feb-2025 12:00:38 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Feb-2025 14:12:32 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Feb-2025 14:12:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Feb-2025 14:12:34 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Feb-2025 14:12:34 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Feb-2025 14:12:41 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Feb-2025 14:12:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Feb-2025 14:14:07 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Feb-2025 14:14:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 01:47:45 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 01:47:45 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 01:47:48 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 01:47:48 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 01:48:13 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 01:48:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 01:49:24 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 01:49:24 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 01:49:46 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 01:49:46 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 12:22:06 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 12:22:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 12:22:07 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 12:22:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 12:22:08 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 12:22:08 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 12:22:16 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 12:22:16 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[16-Feb-2025 12:22:19 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[16-Feb-2025 12:22:19 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[17-Feb-2025 05:15:23 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[17-Feb-2025 05:15:23 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[17-Feb-2025 05:15:37 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[17-Feb-2025 05:15:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[17-Feb-2025 05:16:47 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[17-Feb-2025 05:16:47 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-Feb-2025 14:38:18 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-Feb-2025 14:38:18 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-Feb-2025 14:38:20 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-Feb-2025 14:38:20 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[23-Feb-2025 01:55:29 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[23-Feb-2025 01:55:29 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[23-Feb-2025 01:55:39 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[23-Feb-2025 01:55:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[25-Feb-2025 10:55:14 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[25-Feb-2025 10:55:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[02-Mar-2025 07:32:43 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[02-Mar-2025 07:32:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[02-Mar-2025 07:32:45 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[02-Mar-2025 07:32:45 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[06-Mar-2025 06:52:24 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[06-Mar-2025 06:52:24 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[06-Mar-2025 06:52:26 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[06-Mar-2025 06:52:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[06-Mar-2025 06:52:26 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[06-Mar-2025 06:52:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[08-Mar-2025 15:42:35 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[08-Mar-2025 15:42:35 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[08-Mar-2025 15:42:37 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[08-Mar-2025 15:42:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[08-Mar-2025 15:42:37 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[08-Mar-2025 15:42:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[09-Mar-2025 11:57:30 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Mar-2025 11:57:30 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[09-Mar-2025 11:57:32 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Mar-2025 11:57:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[09-Mar-2025 11:57:33 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[09-Mar-2025 11:57:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Mar-2025 02:11:42 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Mar-2025 02:11:42 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Mar-2025 10:57:29 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Mar-2025 10:57:29 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Mar-2025 10:57:31 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Mar-2025 10:57:31 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:03:02 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:03:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:03:02 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:03:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:03:17 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:03:17 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:03:23 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:03:23 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:03:25 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:03:25 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:03:26 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:03:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:04:00 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:04:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:04:04 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:04:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:04:04 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:04:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:04:32 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:04:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:06:32 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:06:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 14:06:34 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 14:06:34 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[14-Mar-2025 18:37:55 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[14-Mar-2025 18:37:55 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[24-Mar-2025 16:53:54 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[24-Mar-2025 16:53:54 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[24-Mar-2025 16:53:56 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[24-Mar-2025 16:53:56 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[24-Mar-2025 16:53:56 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[24-Mar-2025 16:53:56 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[25-Mar-2025 05:16:19 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[25-Mar-2025 05:16:19 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[25-Mar-2025 05:16:25 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[25-Mar-2025 05:16:25 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-Mar-2025 14:27:59 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-Mar-2025 14:27:59 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-Mar-2025 14:28:01 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-Mar-2025 14:28:01 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-Mar-2025 14:28:01 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-Mar-2025 14:28:01 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-Mar-2025 14:28:10 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-Mar-2025 14:28:10 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-Mar-2025 14:28:20 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-Mar-2025 14:28:20 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[03-Apr-2025 12:08:39 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[03-Apr-2025 12:08:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[03-Apr-2025 12:08:41 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[03-Apr-2025 12:08:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[03-Apr-2025 12:08:41 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[03-Apr-2025 12:08:41 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Apr-2025 02:17:43 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Apr-2025 02:17:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Apr-2025 02:17:45 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Apr-2025 02:17:45 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Apr-2025 02:17:45 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Apr-2025 02:17:45 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Apr-2025 09:24:21 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Apr-2025 09:24:21 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Apr-2025 13:39:29 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Apr-2025 13:39:29 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[10-Apr-2025 13:39:42 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[10-Apr-2025 13:39:42 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[11-Apr-2025 01:31:20 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[11-Apr-2025 01:31:20 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Apr-2025 03:34:36 UTC] PHP Warning:  Undefined variable $student_id in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 115
+[13-Apr-2025 03:34:36 UTC] PHP Warning:  Undefined variable $payment_ids in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 173
+[13-Apr-2025 03:34:36 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 173
+[13-Apr-2025 09:54:59 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Apr-2025 09:54:59 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Apr-2025 09:55:09 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Apr-2025 09:55:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Apr-2025 09:55:23 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Apr-2025 09:55:23 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[13-Apr-2025 09:55:31 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[13-Apr-2025 09:55:31 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[15-Apr-2025 09:19:22 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[15-Apr-2025 09:19:22 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[15-Apr-2025 09:19:34 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[15-Apr-2025 09:19:34 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[15-Apr-2025 09:19:59 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[15-Apr-2025 09:19:59 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[17-Apr-2025 04:36:57 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[17-Apr-2025 04:36:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[17-Apr-2025 04:37:25 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[17-Apr-2025 04:37:25 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[24-Apr-2025 15:38:24 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[24-Apr-2025 15:38:24 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[26-Apr-2025 11:09:06 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[26-Apr-2025 11:09:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[26-Apr-2025 11:09:09 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[26-Apr-2025 11:09:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[27-Apr-2025 05:26:39 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[27-Apr-2025 05:26:39 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[28-Apr-2025 16:16:56 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[28-Apr-2025 16:16:56 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[02-May-2025 04:47:01 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[02-May-2025 04:47:01 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[03-May-2025 13:47:14 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[03-May-2025 13:47:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[03-May-2025 13:47:15 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[03-May-2025 13:47:15 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[03-May-2025 13:47:15 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[03-May-2025 13:47:15 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[04-May-2025 02:34:38 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[04-May-2025 02:34:38 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[04-May-2025 02:35:00 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[04-May-2025 02:35:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[04-May-2025 02:35:26 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[04-May-2025 02:35:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[04-May-2025 05:18:43 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[04-May-2025 05:18:43 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[05-May-2025 09:47:13 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[05-May-2025 09:47:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "tran_date" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 43
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 45
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 46
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "store_amount" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 47
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "bank_tran_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 48
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "card_type" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 49
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "value_a" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 50
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[07-May-2025 03:06:07 UTC] PHP Warning:  Undefined array key "value_b" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 51
+[07-May-2025 03:06:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/trx_id.php on line 9
+[08-May-2025 11:38:10 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[08-May-2025 11:38:10 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[08-May-2025 11:38:12 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[08-May-2025 11:38:12 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[08-May-2025 11:38:12 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[08-May-2025 11:38:12 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[12-May-2025 03:22:27 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[12-May-2025 03:22:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[12-May-2025 03:22:28 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[12-May-2025 03:22:28 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[12-May-2025 03:22:28 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[12-May-2025 03:22:28 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 01:41:19 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 01:41:19 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:40:24 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:40:24 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:40:32 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:40:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:43:23 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:43:23 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:44:10 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:44:10 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:44:13 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:44:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:44:49 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:44:49 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:44:55 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:44:55 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:45:17 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:45:17 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:45:26 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:45:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:45:42 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:45:42 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:46:20 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:46:20 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:59:51 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:59:51 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[18-May-2025 13:59:55 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[18-May-2025 13:59:55 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[19-May-2025 15:23:27 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[19-May-2025 15:23:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[19-May-2025 16:25:27 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[19-May-2025 16:25:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[24-May-2025 02:10:00 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[24-May-2025 02:10:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[24-May-2025 02:10:01 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[24-May-2025 02:10:01 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[24-May-2025 02:10:02 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[24-May-2025 02:10:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[27-May-2025 10:39:56 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[27-May-2025 10:39:56 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 11:21:25 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 11:21:25 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 11:21:33 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 11:21:33 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 11:21:37 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 11:21:37 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 11:21:44 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 11:21:44 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 11:23:30 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 11:23:30 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 12:01:36 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 12:01:36 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 12:01:57 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 12:01:57 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 12:02:11 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 12:02:11 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 12:02:31 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 12:02:31 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 12:02:55 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 12:02:55 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 12:03:36 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 12:03:36 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[29-May-2025 12:23:40 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[29-May-2025 12:23:40 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[31-May-2025 05:05:09 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[31-May-2025 05:05:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[31-May-2025 05:05:22 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[31-May-2025 05:05:22 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16
+[01-Jun-2025 03:44:30 UTC] PHP Warning:  Undefined array key "val_id" in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 19
+[01-Jun-2025 03:44:30 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zpscedu/public_html/mysoft/2025/pg_redirection/success.php on line 16

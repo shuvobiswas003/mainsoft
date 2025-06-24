@@ -1,0 +1,89 @@
+[21-Feb-2025 07:17:33 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[21-Feb-2025 07:17:33 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[21-Feb-2025 07:17:33 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[21-Feb-2025 07:17:33 UTC] PHP Warning:  Undefined variable $newroll in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 111
+[21-Feb-2025 07:18:18 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[21-Feb-2025 07:18:18 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[21-Feb-2025 07:18:18 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[21-Feb-2025 07:18:18 UTC] PHP Warning:  Undefined variable $newroll in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 111
+[21-Feb-2025 07:18:57 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[21-Feb-2025 07:18:57 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[21-Feb-2025 07:18:57 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[21-Feb-2025 13:18:57 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[21-Feb-2025 07:19:14 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[21-Feb-2025 07:19:14 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[21-Feb-2025 07:19:14 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[21-Feb-2025 13:19:14 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[21-Feb-2025 13:45:37 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[21-Feb-2025 15:10:03 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[21-Feb-2025 15:11:45 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 09:38:00 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 03:39:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/zpscedu/public_html/mysoft/2025/interdb.php:2
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/interdb.php(2): mysqli_connect()
+#1 /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php(24): require('/home/zpscedu/p...')
+#2 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/interdb.php on line 2
+[22-Feb-2025 03:39:17 UTC] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 10:18:14 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 10:49:17 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 05:15:51 UTC] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 05:59:03 UTC] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 22:18:56 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-Feb-2025 22:19:16 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:28:51 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:29:58 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:31:22 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:32:12 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:33:10 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:33:58 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:37:07 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-Feb-2025 02:42:22 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[27-Feb-2025 08:14:15 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[27-Feb-2025 08:15:13 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[21-Mar-2025 12:07:18 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[28-Apr-2025 07:42:26 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[30-Apr-2025 01:04:40 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[30-Apr-2025 01:04:40 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[30-Apr-2025 01:04:40 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[30-Apr-2025 07:04:40 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[30-Apr-2025 01:06:32 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[30-Apr-2025 01:06:32 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[30-Apr-2025 01:06:32 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[30-Apr-2025 07:06:32 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[30-Apr-2025 01:08:31 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[30-Apr-2025 01:08:31 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[30-Apr-2025 01:08:31 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[30-Apr-2025 07:08:31 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[30-Apr-2025 07:24:37 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[30-Apr-2025 07:27:19 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[30-Apr-2025 01:28:54 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[30-Apr-2025 01:28:54 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[30-Apr-2025 01:28:54 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[30-Apr-2025 07:28:54 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[30-Apr-2025 07:29:35 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[30-Apr-2025 07:39:11 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[30-Apr-2025 04:15:31 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[30-Apr-2025 04:15:31 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[30-Apr-2025 04:15:31 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[30-Apr-2025 10:15:31 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[21-May-2025 11:37:17 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[21-May-2025 11:42:04 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[21-May-2025 11:42:28 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[22-May-2025 03:55:20 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[22-May-2025 03:55:20 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[22-May-2025 03:55:20 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[22-May-2025 09:55:20 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[22-May-2025 05:21:15 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[22-May-2025 05:21:15 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[22-May-2025 05:21:15 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[22-May-2025 11:21:15 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[24-May-2025 14:45:44 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/bulkidprint.php on line 247
+[25-May-2025 06:20:43 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[25-May-2025 06:20:43 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[25-May-2025 06:20:43 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[25-May-2025 12:20:43 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241
+[01-Jun-2025 03:10:13 UTC] PHP Warning:  Undefined array key "classnumber" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 20
+[01-Jun-2025 03:10:13 UTC] PHP Warning:  Undefined array key "secgroup" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 21
+[01-Jun-2025 03:10:13 UTC] PHP Warning:  Undefined array key "studentsroll" in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 22
+[01-Jun-2025 09:10:13 Asia/Dhaka] PHP Warning:  Undefined variable $count in /home/zpscedu/public_html/mysoft/2025/data/idcard/idcardroll_stu.php on line 241

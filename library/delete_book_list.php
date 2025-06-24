@@ -1,0 +1,60 @@
+<?php
+    // Initialize the session
+    session_start();
+
+    // Check if the user is logged in, if not then redirect him to login page
+    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== "library"){
+        header("location: login.php");
+        exit;
+    }
+
+    require 'functions.php'; // Include functions.php file
+
+?>
+<?php include 'inc/header.php'?>
+<?php include 'inc/topheader.php'?>
+<?php include 'inc/leftmenu.php'?>
+<div class="content-page">
+    <!-- Start content -->
+    <div class="content">
+        <div class="container">
+
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="pull-left page-title">Class</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Add Class</h3>
+                        </div>
+                        <div class="panel-body">
+                            <?php
+
+                            // Check if class ID is provided and if the delete button is clicked
+                            if(isset($_GET['id'])){
+                                $id = $_GET['id'];
+                                if(deleteBooklist($id)){
+                                   echo "Book Deleted  Successfully";
+                                    echo"<br />";
+                                    echo "Go Back To Book Dashboard<br>";
+                                    echo"<a href='add_book.php'>Book View/Add</a>";
+                                    
+                                } else {
+                                    // If deletion fails, display an error message
+                                    echo "Error deleting class.";
+                                }
+                            }
+                            ?>
+                        </div><!-- End of panel Body -->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End container -->       
+    </div> <!-- End content -->
+</div>
+<?php include'inc/footer.php'?>

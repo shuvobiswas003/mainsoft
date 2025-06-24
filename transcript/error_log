@@ -1,0 +1,11 @@
+[27-May-2025 15:42:01 UTC] PHP Warning:  Undefined variable $link in /home/zpscedu/public_html/mysoft/2025/transcript/stumerit.php on line 150
+[27-May-2025 15:42:01 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/zpscedu/public_html/mysoft/2025/transcript/stumerit.php:150
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/transcript/stumerit.php(150): mysqli_query()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/transcript/stumerit.php on line 150
+[27-May-2025 15:42:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM meritlist WHERE 0='0' AND examid='2'' at line 1 in /home/zpscedu/public_html/mysoft/2025/transcript/stumerit.php:152
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/transcript/stumerit.php(152): mysqli_query()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/transcript/stumerit.php on line 152

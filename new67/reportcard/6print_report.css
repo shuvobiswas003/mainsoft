@@ -1,0 +1,212 @@
+#lavel_box{
+width: 29px;
+height: 26px;
+background: black;
+opacity: 0.5;
+float: left;	
+}
+
+
+/*Bangla*/
+.box_bangla_1_lavel{
+	margin-top: 182px;
+    margin-left: 41px;
+}
+.box_bangla_2_lavel{
+	margin-top: 182px;
+    margin-left: 275px;
+}
+.box_bangla_3_lavel{
+	margin-top: 182px;
+    margin-left: 508px;
+}
+
+.box_bangla_4_lavel{
+	margin-top: 324px;
+    margin-left: 41px;
+}
+.box_bangla_5_lavel{
+	margin-top: 324px;
+    margin-left: 275px;
+}
+
+
+/*English*/
+.box_english_1_lavel{
+    margin-top: 552px;
+    margin-left: 41px;
+}
+.box_english_2_lavel{
+    margin-top: 552px;
+    margin-left: 275px;
+}
+.box_english_3_lavel{
+    margin-top: 552px;
+    margin-left: 508px;
+}
+
+.box_english_4_lavel{
+    margin-top: 684px;;
+    margin-left: 41px;
+}
+
+/*Math*/
+.box_math_1_lavel{
+    margin-top: 880px;
+    margin-left: 41px;
+}
+.box_math_2_lavel{
+    margin-top: 880px;
+    margin-left: 275px;
+}
+.box_math_3_lavel{
+    margin-top: 880px;
+    margin-left: 508px;
+}
+
+.box_math_4_lavel{
+    margin-top: 1005px;
+    margin-left: 41px;
+}
+.box_math_5_lavel{
+    margin-top: 1005px;
+    margin-left: 275px;
+}
+
+/*biggan*/
+.box_biggan_1_lavel{
+    margin-top: 165px;
+    margin-left: 41px;
+}
+.box_biggan_2_lavel{
+    margin-top: 165px;
+    margin-left: 275px;
+}
+.box_biggan_3_lavel{
+    margin-top: 165px;
+    margin-left: 508px;
+}
+
+.box_biggan_4_lavel{
+    margin-top: 304px;
+    margin-left: 41px;
+}
+.box_biggan_5_lavel{
+    margin-top: 304px;
+    margin-left: 275px;
+}
+
+/*ICT*/
+.box_ICT_1_lavel{
+    margin-top: 509px;
+    margin-left: 41px;
+}
+.box_ICT_2_lavel{
+    margin-top: 509px;
+    margin-left: 275px;
+}
+.box_ICT_3_lavel{
+    margin-top: 509px;
+    margin-left: 508px;
+}
+
+.box_ICT_4_lavel{
+    margin-top: 666px;;
+    margin-left: 41px;
+}
+
+/*etihas*/
+.box_etihas_1_lavel{
+    margin-top: 872px;
+    margin-left: 41px;
+}
+.box_etihas_2_lavel{
+    margin-top: 872px;
+    margin-left: 275px;
+}
+.box_etihas_3_lavel{
+    margin-top: 872px;
+    margin-left: 508px;
+}
+
+.box_etihas_4_lavel{
+    margin-top: 1007px;
+    margin-left: 41px;
+}
+.box_etihas_5_lavel{
+    margin-top: 1007px;
+    margin-left: 275px;
+}
+/*jibon*/
+.box_jibon_1_lavel{
+    margin-top: 178px;
+    margin-left: 41px;
+}
+.box_jibon_2_lavel{
+    margin-top: 178px;
+    margin-left: 275px;
+}
+.box_jibon_3_lavel{
+    margin-top: 178px;
+    margin-left: 508px;
+}
+
+.box_jibon_4_lavel{
+    margin-top: 313px;
+    margin-left: 41px;
+}
+/*dhormo*/
+.box_dhormo_1_lavel{
+    margin-top: 515px;
+    margin-left: 41px;
+}
+.box_dhormo_2_lavel{
+    margin-top: 515px;
+    margin-left: 275px;
+}
+.box_dhormo_3_lavel{
+    margin-top: 515px;
+    margin-left: 508px;
+}
+
+/*health*/
+.box_health_1_lavel{
+    margin-top: 719px;
+    margin-left: 41px;
+}
+.box_health_2_lavel{
+    margin-top: 719px;
+    margin-left: 275px;
+}
+.box_health_3_lavel{
+    margin-top: 719px;
+    margin-left: 508px;
+}
+/*shilpo*/
+.box_shilpo_1_lavel{
+    margin-top: 931px;
+    margin-left: 41px;
+}
+.box_shilpo_2_lavel{
+    margin-top: 931px;
+    margin-left: 275px;
+}
+.box_shilpo_3_lavel{
+    margin-top: 931px;
+    margin-left: 508px;
+}
+
+/*BI*/
+.box_BI_1_lavel{
+    margin-top: 119px;
+    margin-left: 41px;
+}
+.box_BI_2_lavel{
+    margin-top: 119px;
+    margin-left: 275px;
+}
+.box_BI_3_lavel{
+    margin-top: 119px;
+    margin-left: 508px;
+}
+

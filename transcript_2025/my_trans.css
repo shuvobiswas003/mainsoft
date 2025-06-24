@@ -1,0 +1,153 @@
+
+		*{
+		margin:0 auto;
+		padding:0 auto;
+		}
+		#qr{
+	height: 130px;
+	width: 130px;
+	margin-top: -75px;
+}
+
+#stu_img{
+	height: 75px;
+}
+		.warper{
+	width: 725px;
+    height: 1035px;
+    border: 5px solid #ff0000;
+    border-radius: 0px;
+
+		}
+	#in_m{
+		border: 5px solid black;
+		height: 1025px;
+	}
+
+	#in_b{
+		border: 5px solid #ff0000;
+		height: 1015px;
+	}
+		.header_part{
+			height:95px;
+		}
+		.header_part h1{
+			font-size: 39px;
+			font-family: Gabriola;
+			padding-top: -1px;
+		}
+		.header_part h2{
+			font-size:24px;
+			font-family: sans-serif;
+			margin-top: -30px;
+		}
+		.header_part_top{
+			height:auto;
+		}
+		.lego{
+			float:left;
+			width:auto;
+			height:auto;
+		}
+		.lego img{
+			width: 112px;
+			height: 108px;
+			margin-left: 29px;
+			margin-top:35px;
+		}
+	#sch_lego{
+		width: 80px;
+		height: 80px;
+		margin-left: -55px;
+		}
+	#table{
+	width: 190px !important;
+    /* background: #efeeeead; */
+    margin-left: 500px;
+	}
+	td{
+		text-align:center;
+		font-size:15px;
+	}
+	#th{
+		font-size:15px;
+		font-weight: 700;
+	}
+	#alok{
+		width: 386px;
+		height: 111px;
+		float: left;
+		margin-top:-140px;
+		margin-left: 29px;
+	}
+	#alok td,th{
+		font-size: 20px;
+	}
+	#ss{
+		width:169px;
+		text-align: left;
+	}
+	#ss1{
+		width:169px;
+		text-align: left;
+	}
+	#sss{
+		width: 92%;
+		height: auto;
+	    margin-top: 150px;
+	}
+	#result_table{
+		height:60px;
+		font-size: 14px;
+	}
+	.result_table{
+		height:26px;
+		font-size:21px;
+		font-family:BrowalliaUPC;
+		font-weight:600;
+	}
+	#futter_table{
+		width: 92%;
+		height: 100px;
+		margin-top: 7px;
+		background: #e0ddddc4;
+	}
+	.futter_table{
+		font-size: 14px;
+		font-family: cursive;
+	}
+.end_left{
+		float: left;
+		width: 29%;
+		height: auto;
+		font-size: 13px;
+		margin-left: 29px;
+	    margin-top:10px;
+	}
+	.end_leftt{
+		float: left;
+		width: 15%;
+		height: auto;
+		font-size: 13px;
+		margin-left: 29px;
+		border-top: 1px solid black;
+		margin-top: 58px;
+	}
+	.barcode{
+		float: right;
+		width: 25%;
+		height: auto;
+		margin-right: 28px;
+		margin-top: 58px;
+	}
+	#ss{
+		font-size:18px;
+	}
+	#ada{
+	font-size: 29px;
+    font-family: Candara;
+	}
+	#ss1{
+	 width: 248px;
+    font-size: 18px;
+	}

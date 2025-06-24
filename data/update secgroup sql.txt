@@ -1,0 +1,17 @@
+update secgroup sql
+
+SET @start_roll = 1;
+SET @end_roll = 170;
+SET @increment = 3;
+SET @serialA = 0;
+
+UPDATE student
+SET secgroup = 'A'
+WHERE roll >= @start_roll
+AND roll <= @end_roll
+AND MOD((roll - @start_roll), @increment) = 0
+AND classnumber = 6;
+
+UPDATE student
+SET uniqid = CONCAT(classnumber, secgroup, roll)
+WHERE classnumber = 6;

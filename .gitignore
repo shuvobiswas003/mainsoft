@@ -1,0 +1,22 @@
+# Ignore vendor & node_modules
+/vendor/
+/node_modules/
+
+# Ignore environment & config
+.env
+
+# Ignore logs and cache
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# Ignore IDE/project files
+*.log
+*.sqlite
+*.DS_Store
+*.vscode/
+*.idea/
+
+# Ignore OS files
+Thumbs.db

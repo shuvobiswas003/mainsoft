@@ -1,0 +1,160 @@
+<?php
+// Initialize the session
+session_start();
+
+// Check if the user is logged in, if not then redirect them to login page
+if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== 'account') {
+    header("location: login.php");
+    exit;
+}
+
+require "../interdb.php";
+?>
+
+<?php include 'inc/header.php' ?>
+<?php include 'inc/topheader.php' ?>
+<?php include 'inc/leftmenu.php' ?>
+
+<div class="content-page">
+    <!-- Start content -->
+    <div class="content">
+        <div class="container">
+
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="pull-left page-title">Class</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Add Student</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <label for="secgroup">Raw Text</label>
+                                    <textarea name="raw_data" class="form-control" rows="20" cols="100" placeholder="Paste your raw data here..." required></textarea><br>
+                                </div>
+
+                                <input type="submit" class="btn btn-primary" Value="Add Student">
+                            </form>
+                            <br><br>
+
+                            <!-- Section View Part Start -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title"></h3>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Retrieve class information and raw data from form submission
+    $classnumber = 6;
+    $classname = "Class Six";
+    $raw_data = $_POST['raw_data'];
+
+    // Split data into blocks based on the backtick (`) character
+    $blocks = explode('`', trim($raw_data));
+
+    // Array to store the extracted entries
+    $entries = [];
+
+    foreach ($blocks as $block) {
+        $lines = explode("\n", trim($block));
+
+        // Ensure there are enough fields in each block
+        if (count($lines) < 11) {
+            continue; // Skip if data is incomplete
+        }
+
+        // Prepare the extracted data as associative arrays
+        $entry = [
+            "SL.No." => array_shift($lines),
+            "Candidate's Name" => array_shift($lines),
+            "Father's Name" => array_shift($lines),
+            "Mother's Name" => array_shift($lines),
+            "Gender" => array_shift($lines),
+            "Religion" => array_shift($lines),
+            "DOB" => array_shift($lines),
+            "Section" => array_shift($lines),
+            "Roll" => str_pad(array_shift($lines), 5, "0", STR_PAD_LEFT),
+            "Shift" => array_shift($lines),
+            "Subjects" => implode(", ", $lines), // Remaining lines are treated as subjects
+        ];
+
+        $entries[] = $entry;
+    }
+
+    // Output extracted entries
+    echo "<h2>Processed Entries</h2>";
+    foreach ($entries as $entry) {
+        ?>
+        <center>
+            <img src="../img/student/<?php echo $classnumber; ?>/<?php echo intval($entry['Roll']); ?>.jpg" height="200px" />
+        </center>
+        <?php
+        echo "<h3>Entry {$entry['SL.No.']}</h3>";
+        echo "<p><strong>Candidate's Name:</strong> {$entry["Candidate's Name"]}</p>";
+        echo "<p><strong>Father's Name:</strong> {$entry["Father's Name"]}</p>";
+        echo "<p><strong>Mother's Name:</strong> {$entry["Mother's Name"]}</p>";
+        echo "<p><strong>Gender:</strong> {$entry["Gender"]}</p>";
+        echo "<p><strong>Religion:</strong> {$entry["Religion"]}</p>";
+        echo "<p><strong>Date of Birth:</strong> {$entry["DOB"]}</p>";
+        echo "<p><strong>Section:</strong> {$entry["Section"]}</p>";
+        echo "<p><strong>Roll Number:</strong> {$entry["Roll"]}</p>";
+        echo "<p><strong>Shift:</strong> {$entry["Shift"]}</p>";
+        echo "<p><strong>Subjects:</strong> {$entry["Subjects"]}</p>";
+
+        // Database variables
+        $secgroupname = trim($entry["Section"]);
+        $roll = intval($entry["Roll"]);
+        $name = $entry["Candidate's Name"];
+        $fname = $entry["Father's Name"];
+        $mname = $entry["Mother's Name"];
+        $sex = $entry["Gender"];
+        $dob = $entry["DOB"];
+        $uniqid = $classnumber . $secgroupname . $roll;
+        $imgname = "{$classnumber}/{$roll}.jpg";
+
+        // Insert or update student data in the `student` table
+        $sql = "INSERT INTO student (classnumber, classname, secgroup, roll, name, fname, mname, nameb, fnameb, mnameb, dob, birthid, fnid, mnid, address, mobile, uniqid, sex, imgname) 
+                VALUES ('$classnumber', '$classname', '$secgroupname', '$roll', '$name', '$fname', '$mname', 'Not Available', 'Not Available', 'Not Available', '$dob', '0', '0', '0', 'Not Available', 'Not Available', '$uniqid', '$sex', '$imgname') 
+                ON DUPLICATE KEY UPDATE 
+                classnumber=VALUES(classnumber), 
+                classname=VALUES(classname), 
+                secgroup=VALUES(secgroup), 
+                roll=VALUES(roll), 
+                name=VALUES(name), 
+                fname=VALUES(fname), 
+                mname=VALUES(mname), 
+                sex=VALUES(sex), 
+                imgname=VALUES(imgname)";
+        mysqli_query($link, $sql);
+    }
+}
+?>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Section View Part END -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- container -->       
+    </div> <!-- content -->
+<?php include 'inc/footer.php' ?>

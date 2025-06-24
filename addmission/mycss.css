@@ -1,0 +1,137 @@
+#qr{
+	height: 150px;
+    margin-top: -160px;
+    margin-left: 555px;
+}
+#stu_img{
+    height: 150px;
+    width: 
+    }
+
+#stu_name{
+    margin-top: 5px;
+    padding-left: 270px;}
+
+#bris_no{
+padding-top: 15px;
+    padding-left: 200px;
+}
+
+#date_of_birth{
+   padding-left: 825px;
+    margin-top: -29px;
+}
+
+#fname{
+    padding-left: 235px;
+    padding-top: 15px;
+}
+
+#fnid{
+	padding-left: 767px;
+    padding-top: -29px;
+    margin-top: -26px;
+}
+
+#f_opq{
+    padding-left: 193px;
+    padding-top: 15px;
+}
+#f_income{
+        padding-left: 545px;
+    padding-top: -10px;
+    margin-top: -26px;
+}
+
+
+#mobile{
+	padding-left: 755px;
+    
+    margin-top: -29px;
+
+}
+#l_name{
+    margin-top: 14px;
+    padding-left: 590px;
+}
+#l_opc{
+        margin-top: 14px;
+    padding-left: 175px;
+}
+#l_income{
+    margin-top: -26px;
+    padding-left: 520px;
+}
+#l_mobile{
+        margin-top: -28px;
+    padding-left: 755px;
+}
+
+#marital{
+        padding-left: 205px;
+    margin-top: 16px;
+}
+
+
+#sex{
+    padding-left: 555px;
+    /* padding-top: 73px; */
+    margin-top: -28px;
+}
+#religion{
+        padding-left: 505px;
+    padding-top: 15px;
+}
+#blood{
+        color: red;
+    padding-left: 765px;
+    margin-top: -27px;
+}
+
+#address{
+    padding-left: 160px;
+    padding-top: 15px;
+}
+
+#ssc_roll{
+	padding-top: 120px;
+    padding-left: 270px;
+}
+#ssc_reg{
+	margin-top: -28px;
+    padding-left: 435px;
+}
+#passingYear{
+	    margin-top: -28px;
+    padding-left: 660px;
+}
+#board{
+	    margin-top: -21px;
+    padding-left: 770px;
+    font-size: 15px;
+}
+#gpa{
+        padding-left: 900px;
+    margin-top: -22px;
+}
+#passing_school{
+    padding-left: 280px;
+    padding-top: 25px;
+
+}
+#my-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 75px;
+
+}
+
+#my-table, #my-table th, #my-table td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: left;
+}
+
+#my-table th {
+    background-color: #f2f2f2;
+}

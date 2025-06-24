@@ -1,0 +1,754 @@
+[27-May-2025 16:05:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zpscedu_mysoft_2025.exam_mark' doesn't exist in /home/zpscedu/public_html/mysoft/2025/exam_mark_editor.php:78
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/exam_mark_editor.php(78): mysqli_query()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/exam_mark_editor.php on line 78
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[27-May-2025 16:19:09 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[27-May-2025 16:19:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[27-May-2025 16:21:21 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[27-May-2025 16:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[27-May-2025 16:23:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 02:41:43 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 03:18:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 03:23:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 03:44:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 04:03:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 06:00:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 06:19:17 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 06:22:01 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 06:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 08:04:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 09:12:30 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 09:12:30 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[28-May-2025 09:44:19 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[28-May-2025 09:59:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 09:59:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 09:59:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 09:59:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 09:59:36 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 09:59:36 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[28-May-2025 10:12:02 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 10:12:02 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[28-May-2025 10:59:17 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 10:59:17 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[28-May-2025 11:28:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 11:28:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 11:28:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 11:28:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 11:28:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 11:28:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 11:28:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 11:28:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 11:28:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 11:28:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 11:28:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 11:28:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 11:29:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 11:29:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 11:29:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 11:29:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 12:26:09 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 12:26:09 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[28-May-2025 16:18:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 16:18:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 16:18:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 16:18:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 18:06:04 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 18:06:04 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 18:06:04 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[28-May-2025 18:06:04 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[28-May-2025 18:06:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[28-May-2025 18:06:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[28-May-2025 18:06:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[28-May-2025 18:06:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[28-May-2025 18:36:18 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 18:36:18 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[28-May-2025 18:36:32 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 18:36:32 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[28-May-2025 18:38:07 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[28-May-2025 18:38:07 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[29-May-2025 03:29:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[29-May-2025 04:36:10 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[29-May-2025 05:06:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[29-May-2025 10:37:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[29-May-2025 10:37:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[29-May-2025 10:37:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[29-May-2025 10:37:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[29-May-2025 10:50:03 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:03 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:03 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:03 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[29-May-2025 10:50:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[29-May-2025 10:50:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[29-May-2025 10:50:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[29-May-2025 10:50:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[29-May-2025 10:50:04 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:04 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:04 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:04 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[29-May-2025 10:50:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[29-May-2025 10:50:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[29-May-2025 10:50:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[29-May-2025 10:50:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[29-May-2025 10:50:05 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:05 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:05 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[29-May-2025 10:50:05 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[29-May-2025 10:50:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[29-May-2025 10:50:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[29-May-2025 10:50:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[29-May-2025 10:50:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[29-May-2025 11:09:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[29-May-2025 11:09:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[29-May-2025 11:09:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[29-May-2025 11:09:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[29-May-2025 11:09:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[29-May-2025 11:09:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[29-May-2025 11:09:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[29-May-2025 11:09:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[29-May-2025 11:10:39 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[29-May-2025 11:10:39 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[29-May-2025 17:22:40 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:40 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:40 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:40 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[29-May-2025 17:22:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[29-May-2025 17:22:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[29-May-2025 17:22:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[29-May-2025 17:22:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[29-May-2025 17:22:41 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[29-May-2025 17:22:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[30-May-2025 03:42:55 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[30-May-2025 03:42:55 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[30-May-2025 05:37:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[30-May-2025 05:37:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[30-May-2025 05:37:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[30-May-2025 05:37:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[30-May-2025 05:38:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[30-May-2025 05:38:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[30-May-2025 05:38:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[30-May-2025 05:38:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[30-May-2025 05:38:27 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[30-May-2025 05:38:27 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[30-May-2025 05:38:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[30-May-2025 05:38:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[30-May-2025 05:38:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[30-May-2025 05:38:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[30-May-2025 16:58:12 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[30-May-2025 16:58:12 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[30-May-2025 16:58:12 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[30-May-2025 16:58:12 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[30-May-2025 16:58:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[30-May-2025 16:58:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[30-May-2025 16:58:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[30-May-2025 16:58:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 04:28:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 04:28:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 04:28:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 04:28:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 06:01:55 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 06:01:55 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 06:02:24 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 06:02:24 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 09:36:40 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:40 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:40 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:40 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[31-May-2025 09:36:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 09:36:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 09:36:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 09:36:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 09:36:41 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 09:36:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 10:36:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 10:36:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 10:36:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 10:36:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 10:41:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 10:41:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 10:41:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 10:41:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 10:42:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 10:42:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 10:42:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 10:42:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 12:36:59 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 12:36:59 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 12:37:08 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 12:37:08 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 12:37:37 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 12:37:37 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 14:11:19 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 14:11:19 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 16:24:28 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 16:24:28 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 16:24:35 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[31-May-2025 16:24:35 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:50 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 16:36:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 16:36:51 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:51 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:51 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[31-May-2025 16:36:51 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[31-May-2025 16:36:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 16:36:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 16:36:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 16:36:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 19:01:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 19:01:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 19:01:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 19:01:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 19:01:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 19:01:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 19:01:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 19:01:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 19:01:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 19:01:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 19:01:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 19:01:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 19:02:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 19:02:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 19:02:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 19:02:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[31-May-2025 19:02:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[31-May-2025 19:02:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[31-May-2025 19:02:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[31-May-2025 19:02:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[01-Jun-2025 00:09:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[01-Jun-2025 00:09:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[01-Jun-2025 00:09:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[01-Jun-2025 00:09:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[01-Jun-2025 00:09:32 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[01-Jun-2025 00:09:32 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[01-Jun-2025 03:10:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[01-Jun-2025 03:49:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[01-Jun-2025 03:52:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[01-Jun-2025 04:33:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[01-Jun-2025 04:39:54 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[01-Jun-2025 04:39:54 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[01-Jun-2025 05:13:39 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[01-Jun-2025 05:13:39 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[01-Jun-2025 07:01:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 87
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 129
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 163
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 164
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 165
+[01-Jun-2025 07:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process_advanced.php on line 166
+[01-Jun-2025 08:05:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[01-Jun-2025 08:05:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[01-Jun-2025 08:05:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[01-Jun-2025 08:05:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[01-Jun-2025 08:07:17 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[01-Jun-2025 08:07:17 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[01-Jun-2025 08:19:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[01-Jun-2025 08:52:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[01-Jun-2025 09:41:26 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[01-Jun-2025 09:41:26 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[01-Jun-2025 10:51:48 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[01-Jun-2025 10:51:48 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[01-Jun-2025 12:58:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[01-Jun-2025 12:58:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[01-Jun-2025 15:32:46 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[01-Jun-2025 15:32:46 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[02-Jun-2025 09:24:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[02-Jun-2025 13:58:56 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[02-Jun-2025 13:58:56 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[02-Jun-2025 13:59:08 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[02-Jun-2025 13:59:08 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[02-Jun-2025 18:04:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[02-Jun-2025 18:04:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[02-Jun-2025 18:04:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[02-Jun-2025 18:04:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[03-Jun-2025 15:29:08 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[03-Jun-2025 15:29:08 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[03-Jun-2025 15:31:05 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[03-Jun-2025 15:31:05 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[03-Jun-2025 15:37:03 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[03-Jun-2025 15:37:03 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[03-Jun-2025 16:07:50 UTC] PHP Warning:  Undefined array key "total_amount" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 15
+[03-Jun-2025 16:07:50 UTC] PHP Warning:  Undefined array key "cus_add1" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 22
+[03-Jun-2025 16:07:50 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[03-Jun-2025 16:07:50 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[03-Jun-2025 16:42:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[03-Jun-2025 16:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 05:04:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 06:17:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 06:17:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 06:17:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 06:17:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 10:46:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 10:46:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 10:46:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 10:46:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 10:46:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 10:46:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 10:46:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 10:46:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 11:36:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 12:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 12:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 12:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 12:18:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 12:19:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 12:19:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 12:19:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 12:19:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 12:20:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 12:20:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 12:20:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 12:20:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 12:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 12:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 12:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 12:21:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 14:24:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 14:24:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 14:24:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 14:24:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 14:24:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 14:24:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 14:24:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 14:24:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 16:00:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 16:00:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 16:00:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 16:00:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 16:00:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[04-Jun-2025 16:00:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[04-Jun-2025 16:00:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[04-Jun-2025 16:00:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[04-Jun-2025 16:00:44 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[04-Jun-2025 16:00:44 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[05-Jun-2025 03:10:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 03:10:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 03:10:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 03:10:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 04:31:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 04:31:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 04:31:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 04:31:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 04:31:50 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[05-Jun-2025 04:31:50 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[05-Jun-2025 04:31:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 04:31:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 04:31:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 04:31:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 04:32:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 04:32:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 04:32:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 04:32:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 04:33:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 04:33:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 04:33:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 04:33:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 10:50:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 10:50:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 10:50:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 10:50:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 10:50:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 10:50:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 10:50:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 10:50:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 11:34:02 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[05-Jun-2025 11:34:02 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[05-Jun-2025 14:40:33 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58
+[05-Jun-2025 15:38:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 15:38:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 15:38:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 15:38:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 16:42:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 16:42:45 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[05-Jun-2025 16:42:45 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[05-Jun-2025 16:43:01 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[05-Jun-2025 16:43:01 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 16:43:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 16:43:18 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[05-Jun-2025 16:43:18 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Undefined variable $classnumber in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Undefined variable $secgroupname in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Undefined variable $roll in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 87
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Undefined variable $stuid in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 127
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 152
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 153
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 154
+[05-Jun-2025 16:52:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/payment_process.php on line 155
+[05-Jun-2025 16:52:58 UTC] PHP Warning:  Undefined array key "id" in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 51
+[05-Jun-2025 16:52:58 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php:52
+Stack trace:
+#0 /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php(52): implode()
+#1 {main}
+  thrown in /home/zpscedu/public_html/mysoft/2025/payment_cheakout.php on line 52
+[07-Jun-2025 06:31:05 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/login.php on line 58

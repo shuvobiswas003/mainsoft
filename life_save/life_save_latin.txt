@@ -1,0 +1,163 @@
+UPDATE tablename SET field = CONVERT(CAST(CONVERT(field USING latin1) AS BINARY) USING utf8);
+
+
+Database Font:
+
+UPDATE astheadspeech
+SET 
+    name = CONVERT(CAST(CONVERT(name USING latin1) AS BINARY) USING utf8),
+    shortspeech = CONVERT(CAST(CONVERT(shortspeech USING latin1) AS BINARY) USING utf8),
+    fullspeech = CONVERT(CAST(CONVERT(fullspeech USING latin1) AS BINARY) USING utf8);
+
+
+
+
+    UPDATE examnotice
+SET 
+    heading = CONVERT(CAST(CONVERT(heading USING latin1) AS BINARY) USING utf8),
+    des = CONVERT(CAST(CONVERT(des USING latin1) AS BINARY) USING utf8);
+
+ UPDATE generalnotice
+SET 
+    heading = CONVERT(CAST(CONVERT(heading USING latin1) AS BINARY) USING utf8),
+    des = CONVERT(CAST(CONVERT(des USING latin1) AS BINARY) USING utf8);
+
+UPDATE headspeech
+SET 
+    name = CONVERT(CAST(CONVERT(name USING latin1) AS BINARY) USING utf8),
+    shortspeech = CONVERT(CAST(CONVERT(shortspeech USING latin1) AS BINARY) USING utf8),
+    fullspeech = CONVERT(CAST(CONVERT(fullspeech USING latin1) AS BINARY) USING utf8);
+
+
+UPDATE mvtxt
+SET 
+    mshort = CONVERT(CAST(CONVERT(mshort USING latin1) AS BINARY) USING utf8),
+    mfull = CONVERT(CAST(CONVERT(mfull USING latin1) AS BINARY) USING utf8),
+    vshort = CONVERT(CAST(CONVERT(vshort USING latin1) AS BINARY) USING utf8),
+    vfull = CONVERT(CAST(CONVERT(vfull USING latin1) AS BINARY) USING utf8);
+
+
+UPDATE schoolinfo
+SET 
+    schoolname = CONVERT(CAST(CONVERT(schoolname USING latin1) AS BINARY) USING utf8),
+    schooladdress = CONVERT(CAST(CONVERT(schooladdress USING latin1) AS BINARY) USING utf8),
+    mobile = CONVERT(CAST(CONVERT(mobile USING latin1) AS BINARY) USING utf8),
+    website = CONVERT(CAST(CONVERT(website USING latin1) AS BINARY) USING utf8),
+    schoolnameb = CONVERT(CAST(CONVERT(schoolnameb USING latin1) AS BINARY) USING utf8),
+    schooladdressb = CONVERT(CAST(CONVERT(schooladdressb USING latin1) AS BINARY) USING utf8),
+    mobileb = CONVERT(CAST(CONVERT(mobileb USING latin1) AS BINARY) USING utf8),
+    schmail = CONVERT(CAST(CONVERT(schmail USING latin1) AS BINARY) USING utf8),
+    shortcode = CONVERT(CAST(CONVERT(shortcode USING latin1) AS BINARY) USING utf8),
+    softlink = CONVERT(CAST(CONVERT(softlink USING latin1) AS BINARY) USING utf8),
+    estd = CONVERT(CAST(CONVERT(estd USING latin1) AS BINARY) USING utf8);
+
+UPDATE smccommete
+SET 
+    name = CONVERT(CAST(CONVERT(name USING latin1) AS BINARY) USING utf8),
+    post = CONVERT(CAST(CONVERT(post USING latin1) AS BINARY) USING utf8);
+
+UPDATE staff
+SET 
+    name = CONVERT(CAST(CONVERT(name USING latin1) AS BINARY) USING utf8),
+    post = CONVERT(CAST(CONVERT(post USING latin1) AS BINARY) USING utf8);
+
+UPDATE teacher
+SET 
+    name = CONVERT(CAST(CONVERT(name USING latin1) AS BINARY) USING utf8),
+    post = CONVERT(CAST(CONVERT(post USING latin1) AS BINARY) USING utf8),
+    index_no = CONVERT(CAST(CONVERT(index_no USING latin1) AS BINARY) USING utf8),
+    blood_group = CONVERT(CAST(CONVERT(blood_group USING latin1) AS BINARY) USING utf8),
+    contact = CONVERT(CAST(CONVERT(contact USING latin1) AS BINARY) USING utf8);
+
+
+UPDATE welcometext
+SET 
+    welcometext = CONVERT(CAST(CONVERT(welcometext USING latin1) AS BINARY) USING utf8);
+
+
+
+ // my soft data base
+
+
+
+UPDATE exam
+SET 
+    examname = CONVERT(CAST(CONVERT(examname USING latin1) AS BINARY) USING utf8);
+
+
+
+UPDATE expense
+SET 
+    des = CONVERT(CAST(CONVERT(des USING latin1) AS BINARY) USING utf8);
+
+UPDATE income
+SET 
+    des = CONVERT(CAST(CONVERT(des USING latin1) AS BINARY) USING utf8);
+
+
+UPDATE schoolinfo
+SET 
+    schoolname = CONVERT(CAST(CONVERT(schoolname USING latin1) AS BINARY) USING utf8),
+    schooladdress = CONVERT(CAST(CONVERT(schooladdress USING latin1) AS BINARY) USING utf8),
+    mobile = CONVERT(CAST(CONVERT(mobile USING latin1) AS BINARY) USING utf8),
+    website = CONVERT(CAST(CONVERT(website USING latin1) AS BINARY) USING utf8),
+    schoolnameb = CONVERT(CAST(CONVERT(schoolnameb USING latin1) AS BINARY) USING utf8),
+    schooladdressb = CONVERT(CAST(CONVERT(schooladdressb USING latin1) AS BINARY) USING utf8),
+    mobileb = CONVERT(CAST(CONVERT(mobileb USING latin1) AS BINARY) USING utf8),
+    schmail = CONVERT(CAST(CONVERT(schmail USING latin1) AS BINARY) USING utf8),
+    shortcode = CONVERT(CAST(CONVERT(shortcode USING latin1) AS BINARY) USING utf8),
+    softlink = CONVERT(CAST(CONVERT(softlink USING latin1) AS BINARY) USING utf8),
+    eiin = CONVERT(CAST(CONVERT(eiin USING latin1) AS BINARY) USING utf8),
+    estd = CONVERT(CAST(CONVERT(estd USING latin1) AS BINARY) USING utf8),
+    schoolcode = CONVERT(CAST(CONVERT(schoolcode USING latin1) AS BINARY) USING utf8),
+    voccode = CONVERT(CAST(CONVERT(voccode USING latin1) AS BINARY) USING utf8),
+    headname = CONVERT(CAST(CONVERT(headname USING latin1) AS BINARY) USING utf8),
+    headnameb = CONVERT(CAST(CONVERT(headnameb USING latin1) AS BINARY) USING utf8),
+    head_deg = CONVERT(CAST(CONVERT(head_deg USING latin1) AS BINARY) USING utf8);
+
+
+    UPDATE student
+SET 
+    classname = CONVERT(CAST(CONVERT(classname USING latin1) AS BINARY) USING utf8),
+    secgroup = CONVERT(CAST(CONVERT(secgroup USING latin1) AS BINARY) USING utf8),
+    name = CONVERT(CAST(CONVERT(name USING latin1) AS BINARY) USING utf8),
+    fname = CONVERT(CAST(CONVERT(fname USING latin1) AS BINARY) USING utf8),
+    mname = CONVERT(CAST(CONVERT(mname USING latin1) AS BINARY) USING utf8),
+    nameb = CONVERT(CAST(CONVERT(nameb USING latin1) AS BINARY) USING utf8),
+    fnameb = CONVERT(CAST(CONVERT(fnameb USING latin1) AS BINARY) USING utf8),
+    mnameb = CONVERT(CAST(CONVERT(mnameb USING latin1) AS BINARY) USING utf8),
+    sex = CONVERT(CAST(CONVERT(sex USING latin1) AS BINARY) USING utf8),
+    birthid = CONVERT(CAST(CONVERT(birthid USING latin1) AS BINARY) USING utf8),
+    fnid = CONVERT(CAST(CONVERT(fnid USING latin1) AS BINARY) USING utf8),
+    mnid = CONVERT(CAST(CONVERT(mnid USING latin1) AS BINARY) USING utf8),
+    address = CONVERT(CAST(CONVERT(address USING latin1) AS BINARY) USING utf8),
+    mobile = CONVERT(CAST(CONVERT(mobile USING latin1) AS BINARY) USING utf8),
+    uniqid = CONVERT(CAST(CONVERT(uniqid USING latin1) AS BINARY) USING utf8),
+    imgname = CONVERT(CAST(CONVERT(imgname USING latin1) AS BINARY) USING utf8),
+    brisqr = CONVERT(CAST(CONVERT(brisqr USING latin1) AS BINARY) USING utf8);
+
+ UPDATE studentpayment
+SET 
+    secgroupname = CONVERT(CAST(CONVERT(secgroupname USING latin1) AS BINARY) USING utf8),
+    stuid = CONVERT(CAST(CONVERT(stuid USING latin1) AS BINARY) USING utf8),
+    stuname = CONVERT(CAST(CONVERT(stuname USING latin1) AS BINARY) USING utf8),
+    des = CONVERT(CAST(CONVERT(des USING latin1) AS BINARY) USING utf8),
+    status = CONVERT(CAST(CONVERT(status USING latin1) AS BINARY) USING utf8);
+
+UPDATE sturegsubject
+SET 
+    secgroupname = CONVERT(CAST(CONVERT(secgroupname USING latin1) AS BINARY) USING utf8),
+    uniqid = CONVERT(CAST(CONVERT(uniqid USING latin1) AS BINARY) USING utf8),
+    subname = CONVERT(CAST(CONVERT(subname USING latin1) AS BINARY) USING utf8),
+    unisubstatus = CONVERT(CAST(CONVERT(unisubstatus USING latin1) AS BINARY) USING utf8);
+
+UPDATE subject
+SET 
+    classname = CONVERT(CAST(CONVERT(classname USING latin1) AS BINARY) USING utf8),
+    classnumber = CONVERT(CAST(CONVERT(classnumber USING latin1) AS BINARY) USING utf8),
+    secgroup = CONVERT(CAST(CONVERT(secgroup USING latin1) AS BINARY) USING utf8),
+    subname = CONVERT(CAST(CONVERT(subname USING latin1) AS BINARY) USING utf8),
+    gradecode = CONVERT(CAST(CONVERT(gradecode USING latin1) AS BINARY) USING utf8),
+    subteacher = CONVERT(CAST(CONVERT(subteacher USING latin1) AS BINARY) USING utf8),
+    uni = CONVERT(CAST(CONVERT(uni USING latin1) AS BINARY) USING utf8),
+    barcode = CONVERT(CAST(CONVERT(barcode USING latin1) AS BINARY) USING utf8);

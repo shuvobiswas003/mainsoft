@@ -1,0 +1,2 @@
+[25-Feb-2025 02:36:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/zpscedu/public_html/mysoft/2025/student/login.php on line 59
+[25-Feb-2025 02:36:56 UTC] PHP Warning:  Undefined array key "name" in /home/zpscedu/public_html/mysoft/2025/student/login.php on line 74
