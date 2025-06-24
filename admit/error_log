@@ -1,5 +1,0 @@
-[09-Feb-2025 02:33:31 UTC] PHP Fatal error:  Cannot redeclare renderTable() (previously declared in /home/zpscedu/public_html/mysoft/2025/admit/stdentadmitprint.php:311) in /home/zpscedu/public_html/mysoft/2025/admit/stdentadmitprint.php on line 311
-[09-Feb-2025 02:39:42 UTC] PHP Warning:  Undefined variable $studentData in /home/zpscedu/public_html/mysoft/2025/admit/stdentadmitprint.php on line 281
-[09-Feb-2025 02:39:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/admit/stdentadmitprint.php on line 281
-[09-Feb-2025 02:40:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zpscedu/public_html/mysoft/2025/admit/stdentadmitprint.php on line 352
-[09-Feb-2025 02:43:13 UTC] PHP Fatal error:  Cannot redeclare renderTable() (previously declared in /home/zpscedu/public_html/mysoft/2025/admit/stdentadmitprint.php:311) in /home/zpscedu/public_html/mysoft/2025/admit/stdentadmitprint.php on line 311
