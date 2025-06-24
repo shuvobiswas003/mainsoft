@@ -1,0 +1,10 @@
+{
+    "PROJECT_PATH": "http:\/\/localhost:4000\/school_soft\/main_soft",
+    "IS_SANDBOX": true,
+    "STORE_ID": "black623d3defabb5b",
+    "STORE_PASSWORD": "black623d3defabb5b@ssl",
+    "success_url": "pg_redirection\/success.php",
+    "failed_url": "pg_redirection\/fail.php",
+    "cancel_url": "pg_redirection\/cancel.php",
+    "ipn_url": "pg_redirection\/ipn.php"
+}

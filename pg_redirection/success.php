@@ -1,11 +1,4 @@
 <?php
-######
-# THIS FILE IS ONLY AN EXAMPLE. PLEASE MODIFY AS REQUIRED.
-# Contributors: 
-#       Md. Rakibul Islam <rakibul.islam@sslwireless.com>
-#       Prabal Mallick <prabal.mallick@sslwireless.com>
-######
-
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -16,16 +9,30 @@ function sanitize($data, $link) {
     return $link->real_escape_string(htmlspecialchars(trim($data)));
 }
 
+// Read config file
+$configFile = '../sslcommerz_config.json';
+$config = json_decode(file_get_contents($configFile), true);
+
+if (!$config) {
+    die("Error: Unable to read SSLCommerz configuration file");
+}
+
 $val_id = sanitize($_POST['val_id'], $link);
-$store_id = "zpscedubdlive";
-$store_passwd = "671A016324DC690368";
-$requested_url = "https://securepay.sslcommerz.com/validator/api/validationserverAPI.php?val_id=".$val_id."&store_id=".$store_id."&store_passwd=".$store_passwd."&v=1&format=json";
+$store_id = $config['STORE_ID'];
+$store_passwd = $config['STORE_PASSWORD'];
+
+// Determine API endpoint based on sandbox mode
+$apiBaseUrl = $config['IS_SANDBOX'] 
+    ? 'https://sandbox.sslcommerz.com/validator/api/validationserverAPI.php'
+    : 'https://securepay.sslcommerz.com/validator/api/validationserverAPI.php';
+
+$requested_url = $apiBaseUrl . "?val_id=".$val_id."&store_id=".$store_id."&store_passwd=".$store_passwd."&v=1&format=json";
 
 $handle = curl_init();
 curl_setopt($handle, CURLOPT_URL, $requested_url);
 curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($handle, CURLOPT_SSL_VERIFYHOST, false); # IF YOU RUN FROM LOCAL PC
-curl_setopt($handle, CURLOPT_SSL_VERIFYPEER, false); # IF YOU RUN FROM LOCAL PC
+curl_setopt($handle, CURLOPT_SSL_VERIFYHOST, false); // IF YOU RUN FROM LOCAL PC
+curl_setopt($handle, CURLOPT_SSL_VERIFYPEER, false); // IF YOU RUN FROM LOCAL PC
 
 $result = curl_exec($handle);
 
@@ -65,7 +72,6 @@ if($code == 200 && !(curl_errno($handle))) {
 
     if ($link->query($sql) === TRUE) {
         echo "<center><h1 style='color:green'>Transaction added or updated successfully</h1></center>";
-
     } else {
         echo "Error: " . $sql . "<br>" . $link->error;
     }
@@ -93,7 +99,6 @@ if($code == 200 && !(curl_errno($handle))) {
 </head>
 <body>
     
-
 <div class="container">
     <div class="row">
         <div class="col-md-3"></div>
@@ -109,11 +114,8 @@ if($code == 200 && !(curl_errno($handle))) {
                         <td colspan="2">
                     <center>
                     <?php
-                    
                     echo "<a href='../studentpayment/student_payment_online.php?data_a=$data_a&data_b=$data_b' target='_blank'><button type='button' class='btn btn-primary btn-lg'>Print Slip</button></a>";
                     ?>
-
-                    
                     </center>
                 </td>
                     </tr>
@@ -232,7 +234,6 @@ if($code == 200 && !(curl_errno($handle))) {
 </body>
 </html>
 <?php
-
 } else {
     echo "Failed to connect with SSLCOMMERZ";
 }

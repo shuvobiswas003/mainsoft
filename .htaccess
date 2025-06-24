@@ -1,0 +1,17 @@
+# Deny access to all .json files
+<FilesMatch "\.(json)$">
+    Require all denied
+</FilesMatch>
+
+# OPTIONAL: Deny access to other sensitive files
+<FilesMatch "\.(ini|env|config\.php|log)$">
+    Require all denied
+</FilesMatch>
+
+# Deny directory listing
+Options -Indexes
+
+# Prevent access to .htaccess itself
+<Files ".htaccess">
+    Require all denied
+</Files>

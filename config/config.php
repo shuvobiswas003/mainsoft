@@ -1,26 +1,40 @@
 <?php
+$pathCurrent = __DIR__ . '/sslcommerz_config.json';
+$pathMain = __DIR__ . '/../sslcommerz_config.json';
+
+$configFile = file_exists($pathCurrent) ? $pathCurrent : (file_exists($pathMain) ? $pathMain : null);
+
+if (!$configFile) {
+    die("SSLCommerz configuration file not found.");
+}
+
+$config = json_decode(file_get_contents($configFile), true);
+
+if (!$config) {
+    die("Invalid SSLCommerz configuration JSON.");
+}
 
 if (!defined('PROJECT_PATH')) {
-    define('PROJECT_PATH', 'https://zpsc.edu.bd/mysoft/2025'); // replace this value with your project path
+    define('PROJECT_PATH', $config['PROJECT_PATH']);
 }
 
 if (!defined('IS_SANDBOX')) {
-    define('IS_SANDBOX', false); // 'true' for sandbox, 'false' for live
+    define('IS_SANDBOX', filter_var($config['IS_SANDBOX'], FILTER_VALIDATE_BOOLEAN));
 }
 
 if (!defined('STORE_ID')) {
-    define('STORE_ID', 'zpscedubdlive'); // your store id. For sandbox, register at https://developer.sslcommerz.com/registration/
+    define('STORE_ID', $config['STORE_ID']);
 }
+
 if (!defined('STORE_PASSWORD')) {
-    define('STORE_PASSWORD', '671A016324DC690368'); // your store password.
+    define('STORE_PASSWORD', $config['STORE_PASSWORD']);
 }
 
 return [
-    'success_url' => 'pg_redirection/success.php', // your success url
-    'failed_url' => 'pg_redirection/fail.php', // your fail url
-    'cancel_url' => 'pg_redirection/cancel.php', //your cancel url
-    'ipn_url' => 'pg_redirection/ipn.php', // your ipn url
-
+    'success_url' => $config['success_url'],
+    'failed_url' => $config['failed_url'],
+    'cancel_url' => $config['cancel_url'],
+    'ipn_url' => $config['ipn_url'],
 
     'projectPath' => PROJECT_PATH,
     'apiDomain' => IS_SANDBOX ? 'https://sandbox.sslcommerz.com' : 'https://securepay.sslcommerz.com',
