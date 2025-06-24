@@ -1,0 +1,56 @@
+# XAMPP or general server config files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.db
+*.sqlite
+*.sql
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Cache/temp folders
+cache/
+tmp/
+temp/
+logs/
+
+# Uploads or media folders (optional, if user uploads go here)
+uploads/
+media/
+files/
+vendor/
+
+# Composer dependencies (if used)
+
+
+# Node dependencies (if any frontend used)
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Backup & ZIP files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.old
+*.sql
+
+# Git itself
+.gitignore
+.gitattributes
