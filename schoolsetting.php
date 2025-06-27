@@ -260,7 +260,7 @@ if(isset($_FILES['hmsign']) && $_FILES['hmsign']['error'] === UPLOAD_ERR_OK){
                 while($row = mysqli_fetch_assoc($result)) {?>
                 <center>
                     <h1><?php echo $row['schoolname'];?></h1>
-                    <img src="img/lego.png?<?php echo time()?>" alt="">
+                    <img src="img/lego.png?<?php echo time()?>" alt="" width="200px">
                     <h4>ESTD:<?php echo $row['estd'];?> ,Eiin:<?php echo $row['eiin'];?>, School Code: <?php echo $row['schoolcode'];?>, Voccode: <?php echo $row['voccode'];?></h4>
                     <h4>Mobile:<?php echo $row['mobile'];?></h4>
                     <h4>Email:<?php echo $row['schmail'];?></h4>

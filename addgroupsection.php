@@ -19,15 +19,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <!-- Page-Title -->
                         <div class="row">
                             <div class="col-sm-12">
-                                <h4 class="pull-left page-title">Subject</h4>
+                                <h4 class="pull-left page-title">Section</h4>
                             </div>
                         </div>
 
 <div class="row">
     <div class="col-md-12">
-        <div class="panel panel-default">
+        <div class="panel-primary">
             <div class="panel-heading">
-                <h3 class="panel-title">Add Subject</h3>
+                <h3 class="panel-title"><i class="fa fa-plus-circle"></i> Add New Class</h3>
             </div>
             <div class="panel-body">
 <?php

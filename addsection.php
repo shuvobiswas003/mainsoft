@@ -25,7 +25,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <div class="row">
     <div class="col-md-12">
-        <div class="panel panel-default">
+        <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Section/Group</h3>
             </div>
@@ -91,7 +91,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!--Section View Part Start-->
 <div class="row">
 <div class="col-md-12">
-<div class="panel panel-default">
+<div class="panel panel-primary">
     <div class="panel-heading">
     <h3 class="panel-title">View Section/Group </h3>
     </div>
@@ -99,7 +99,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
             
-            <table id="datatable" class="table table-striped table-bordered">
+
+        <div class="table-responsive">
+            <table id="datatable" class="table table-striped table-bordered table-hover">
                 <thead>
                     <tr>
                         <th>Class Number</th>
@@ -128,6 +130,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <?php $count++; } ?>
             </tbody>
             </table>
+        </div>
+
         </div>
     </div>
 </div>
