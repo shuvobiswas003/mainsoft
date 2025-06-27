@@ -25,7 +25,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <div class="row">
     <div class="col-md-12">
-        <div class="panel panel-default">
+        <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Add Subject</h3>
             </div>
@@ -166,7 +166,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 <div class="panel-body">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-            
+            <div class="table-responsive">
             <table id="datatable" class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -204,6 +204,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                     <?php $count++; } ?>
             </tbody>
             </table>
+            </div>
         </div>
     </div>
 </div>

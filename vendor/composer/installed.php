@@ -3,7 +3,7 @@
         'name' => 'shuvo/scm',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '5d240dab970632c44e50fc4ac9e030dea00140f1',
+        'reference' => '48fee406ab33cfcd4999c9c7b03c5d86efbf0c76',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -112,7 +112,7 @@
         'shuvo/scm' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '5d240dab970632c44e50fc4ac9e030dea00140f1',
+            'reference' => '48fee406ab33cfcd4999c9c7b03c5d86efbf0c76',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

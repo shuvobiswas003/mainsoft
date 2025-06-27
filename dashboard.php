@@ -117,15 +117,19 @@ $publicHolidayQuery = "SELECT holydayname FROM publicholyday WHERE '$selectedDat
 $publicHolidayResult = mysqli_query($link, $publicHolidayQuery);
 $publicHoliday = mysqli_fetch_assoc($publicHolidayResult);
 
-// Get students on leave
+// Get students on leave and count leave by class and section
 $leaveQuery = "SELECT p.stuid, s.name, s.classname, s.secgroup, p.holydayname 
                FROM personalholyday p
                JOIN student s ON p.stuid = s.uniqid
                WHERE '$selectedDate' BETWEEN p.sdate AND p.edate";
 $leaveResult = mysqli_query($link, $leaveQuery);
 $studentsOnLeave = [];
+$leaveCountByClassSection = [];
+
 while ($row = mysqli_fetch_assoc($leaveResult)) {
     $studentsOnLeave[] = $row;
+    $classSectionKey = $row['classname'] . '|' . $row['secgroup'];
+    $leaveCountByClassSection[$classSectionKey] = ($leaveCountByClassSection[$classSectionKey] ?? 0) + 1;
 }
 
 $attendanceData = [];
@@ -133,9 +137,12 @@ $classAttendance = [];
 $sectionAttendance = [];
 $totalPresent = 0;
 $totalStudents = 0;
+$totalLeaves = count($studentsOnLeave);
 
 while ($row = mysqli_fetch_assoc($attendanceResult)) {
-    $absent = $row['total_students'] - $row['present_count'];
+    $classSectionKey = $row['classname'] . '|' . $row['secgroup'];
+    $leaveCount = $leaveCountByClassSection[$classSectionKey] ?? 0;
+    $absent = $row['total_students'] - $row['present_count'] - $leaveCount;
     $percentage = $row['total_students'] > 0 ? ($row['present_count'] / $row['total_students']) * 100 : 0;
     
     $attendanceData[] = [
@@ -143,6 +150,7 @@ while ($row = mysqli_fetch_assoc($attendanceResult)) {
         'section' => $row['secgroup'],
         'present' => $row['present_count'],
         'absent' => $absent,
+        'leave' => $leaveCount,
         'total' => $row['total_students'],
         'percentage' => $percentage
     ];
@@ -150,13 +158,14 @@ while ($row = mysqli_fetch_assoc($attendanceResult)) {
     // Class totals
     $classAttendance[$row['classname']]['present'] = ($classAttendance[$row['classname']]['present'] ?? 0) + $row['present_count'];
     $classAttendance[$row['classname']]['absent'] = ($classAttendance[$row['classname']]['absent'] ?? 0) + $absent;
+    $classAttendance[$row['classname']]['leave'] = ($classAttendance[$row['classname']]['leave'] ?? 0) + $leaveCount;
     $classAttendance[$row['classname']]['total'] = ($classAttendance[$row['classname']]['total'] ?? 0) + $row['total_students'];
     
     // Section totals
-    $sectionKey = $row['classname'] . '|' . $row['secgroup'];
-    $sectionAttendance[$sectionKey] = [
+    $sectionAttendance[$classSectionKey] = [
         'present' => $row['present_count'],
         'absent' => $absent,
+        'leave' => $leaveCount,
         'total' => $row['total_students'],
         'percentage' => $percentage
     ];
@@ -747,6 +756,21 @@ $overallAttendance = $totalStudents > 0 ? ($totalPresent / $totalStudents) * 100
                 </div>
             <?php endif; ?>
             
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <canvas id="attendanceChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 style="color: var(--info);">Total Students: <?php echo $totalStudents; ?></h4>
+                    <h4 class="text-success">Present: <?php echo $totalPresent; ?></h4>
+                    <h4 class="text-danger">Absent: <?php echo $totalStudents - $totalPresent - $totalLeaves; ?></h4>
+                    <h4 class="text-warning">On Leave: <?php echo $totalLeaves; ?></h4>
+                    <h4>Attendance Rate: <?php echo number_format($overallAttendance, 1); ?>%</h4>
+                </div>
+            </div>
+            
             <?php if (!empty($studentsOnLeave)): ?>
                 <div class="alert alert-info">
                     <h4>Students on Leave (<?php echo count($studentsOnLeave); ?>)</h4>
@@ -775,20 +799,6 @@ $overallAttendance = $totalStudents > 0 ? ($totalPresent / $totalStudents) * 100
                 </div>
             <?php endif; ?>
             
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="chart-container">
-                        <canvas id="attendanceChart"></canvas>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h4 style="color: var(--info);">Total Students: <?php echo $totalStudents; ?></h4>
-                    <h4 class="text-success">Present: <?php echo $totalPresent; ?></h4>
-                    <h4 class="text-danger">Absent: <?php echo $totalStudents - $totalPresent; ?></h4>
-                    <h4>Attendance Rate: <?php echo number_format($overallAttendance, 1); ?>%</h4>
-                </div>
-            </div>
-            
             <h4 class="page-header" style="color: var(--dark); border-bottom-color: #eee;">
                 <i class="fa fa-list"></i> Class-wise Attendance
             </h4>
@@ -799,6 +809,7 @@ $overallAttendance = $totalStudents > 0 ? ($totalPresent / $totalStudents) * 100
                             <th>Class</th>
                             <th>Present</th>
                             <th>Absent</th>
+                            <th>Leave</th>
                             <th>Total</th>
                             <th>%</th>
                         </tr>
@@ -811,6 +822,50 @@ $overallAttendance = $totalStudents > 0 ? ($totalPresent / $totalStudents) * 100
                             <td><?php echo htmlspecialchars($class); ?></td>
                             <td><?php echo $data['present']; ?></td>
                             <td><?php echo $data['absent']; ?></td>
+                            <td><?php echo $data['leave']; ?></td>
+                            <td><?php echo $data['total']; ?></td>
+                            <td>
+                                <span class="badge attendance-badge bg-<?php 
+                                    echo $percentage >= 90 ? 'success' : 
+                                        ($percentage >= 75 ? 'primary' : 
+                                        ($percentage >= 50 ? 'warning' : 'danger'));
+                                ?>">
+                                    <?php echo number_format($percentage, 1); ?>%
+                                </span>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h4 class="page-header" style="color: var(--dark); border-bottom-color: #eee;">
+                <i class="fa fa-list"></i> Section-wise Attendance
+            </h4>
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Section</th>
+                            <th>Present</th>
+                            <th>Absent</th>
+                            <th>Leave</th>
+                            <th>Total</th>
+                            <th>%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($sectionAttendance as $key => $data): 
+                            list($class, $section) = explode('|', $key);
+                            $percentage = ($data['total'] > 0) ? ($data['present'] / $data['total']) * 100 : 0;
+                        ?>
+                        <tr>
+                            <td><?php echo htmlspecialchars($class); ?></td>
+                            <td><?php echo htmlspecialchars($section); ?></td>
+                            <td><?php echo $data['present']; ?></td>
+                            <td><?php echo $data['absent']; ?></td>
+                            <td><?php echo $data['leave']; ?></td>
                             <td><?php echo $data['total']; ?></td>
                             <td>
                                 <span class="badge attendance-badge bg-<?php 

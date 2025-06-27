@@ -191,6 +191,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                             </div>
                                         </div>
                                         <?php } ?>
+                                        <a href="bulk_subject.php" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s;">
+                                            <i class="fa fa-upload" style="color: #667eea; margin-right: 10px;"></i>Bulk Subject
+                                        </a>
+
                                         <a href="uploadsubject.php" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s;">
                                             <i class="fa fa-upload" style="color: #667eea; margin-right: 10px;"></i> Upload Subject
                                         </a>
