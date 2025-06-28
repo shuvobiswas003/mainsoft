@@ -330,6 +330,44 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             </div>
         </div>
     </div>
+
+
+    <!--Class Routine -->
+
+    <!-- Grade/Subject Menu Panel -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(255, 179, 71, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #fffbf8 100%);">
+            <div class="panel-heading" style="background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%); color: white; padding: 15px 20px; border-bottom: none;">
+                <h3 class="panel-title" style="font-weight: 400;">
+                    <i class="md-book" style="margin-right: 8px;"></i> Grade/Subject
+                    <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
+                </h3>
+            </div>
+            <div class="panel-body" style="padding: 0;">
+                <div class="list-group" style="margin-bottom: 0; border-radius: 0;">
+                    <a href="class_routine_period_add.php" target="_blank" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                        <i class="fa fa-star" style="color: #ff9a9e; margin-right: 10px;"></i> Add/Add Class Period
+                    </a>
+
+
+                     <a href="class_routine.php" target="_blank" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                        <i class="fa fa-star" style="color: #ff9a9e; margin-right: 10px;"></i> Add/Assign Period
+                    </a>
+
+                    <a href="class_routine_print_section.php" target="_blank" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                        <i class="fa fa-star" style="color: #ff9a9e; margin-right: 10px;"></i> Print Class Routine(Section)
+                    </a>
+
+                    <a href="class_routine_print_teacher.php" target="_blank" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                        <i class="fa fa-star" style="color: #ff9a9e; margin-right: 10px;"></i> Print Class Routine(Teacher)
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
 

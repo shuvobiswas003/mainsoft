@@ -81,6 +81,115 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </div>
 </div>
 
+
+
+<!-- Student Information Panel -->
+<div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(75, 192, 192, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #f5fffd 100%);">
+        <div class="panel-heading" style="background: linear-gradient(135deg, #4bc0c0 0%, #2d8c8c 100%); color: white; padding: 15px 20px; border-bottom: none;">
+            <h3 class="panel-title" style="font-weight: 400;">
+                <i class="fa fa-info-circle" style="margin-right: 8px;"></i> Student Information
+                <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
+            </h3>
+        </div>
+        <div class="panel-body" style="padding: 0;">
+            <div class="list-group" style="margin-bottom: 0;">
+                <?php
+                require "interdb.php";
+                $sel_query = "Select * from class Order By classnumber";
+                $result = mysqli_query($link,$sel_query);
+                while($row = mysqli_fetch_assoc($result)) { ?>
+                <a href="studentdashboard.php?classnumber=<?php echo $row['classnumber']; ?>" class="list-group-item" style="border-left: none; border-right: none; padding: 10px 20px 10px 40px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                    <i class="fa fa-graduation-cap" style="color: #4bc0c0; margin-right: 10px;"></i> <?php echo $row['classname']; ?>
+                </a>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Student Details Panel -->
+<div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(255, 159, 64, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #fffbf5 100%);">
+        <div class="panel-heading" style="background: linear-gradient(135deg, #ffa040 0%, #ff8000 100%); color: white; padding: 15px 20px; border-bottom: none;">
+            <h3 class="panel-title" style="font-weight: 400;">
+                <i class="fa fa-id-card" style="margin-right: 8px;"></i> Student Details
+                <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
+            </h3>
+        </div>
+        <div class="panel-body" style="padding: 0;">
+            <div class="list-group" style="margin-bottom: 0;">
+                <?php
+                require "interdb.php";
+                $sel_query = "Select * from class Order By classnumber";
+                $result = mysqli_query($link,$sel_query);
+                while($row = mysqli_fetch_assoc($result)) { ?>
+                <a href="studentdetailsdash.php?classnumber=<?php echo $row['classnumber']; ?>" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                    <i class="fa fa-graduation-cap" style="color: #ff8000; margin-right: 10px;"></i> <?php echo $row['classname']; ?>
+                </a>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- Student Details (Bangla) Panel -->
+<div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(54, 162, 235, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #f5f9ff 100%);">
+        <div class="panel-heading" style="background: linear-gradient(135deg, #36a2eb 0%, #1e78c1 100%); color: white; padding: 15px 20px; border-bottom: none;">
+            <h3 class="panel-title" style="font-weight: 400;">
+                <i class="fa fa-id-card-o" style="margin-right: 8px;"></i> Student Details (Bangla)
+                <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
+            </h3>
+        </div>
+        <div class="panel-body" style="padding: 0;">
+            <div class="list-group" style="margin-bottom: 0;">
+                <?php
+                require "interdb.php";
+                $sel_query = "Select * from class Order By classnumber";
+                $result = mysqli_query($link,$sel_query);
+                while($row = mysqli_fetch_assoc($result)) { ?>
+                <a href="studentdetailsdashbangla.php?classnumber=<?php echo $row['classnumber']; ?>" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                    <i class="fa fa-graduation-cap" style="color: #36a2eb; margin-right: 10px;"></i> <?php echo $row['classname']; ?>
+                </a>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Student Details (Bangla) Panel -->
+<div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(54, 162, 235, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #f5f9ff 100%);">
+        <div class="panel-heading" style="background: linear-gradient(135deg, #36a2eb 0%, #1e78c1 100%); color: white; padding: 15px 20px; border-bottom: none;">
+            <h3 class="panel-title" style="font-weight: 400;">
+                <i class="fa fa-id-card-o" style="margin-right: 8px;"></i> Student Bulk Option
+                <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
+            </h3>
+        </div>
+        <div class="panel-body" style="padding: 0;">
+            <div class="list-group" style="margin-bottom: 0;">
+                <a href="student_bulk_add.php" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                    <i class="fa fa-graduation-cap" style="color: #36a2eb; margin-right: 10px;"></i> Studnt Bulk Add
+                </a>
+
+
+                <a href="multi_update.php" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                    <i class="fa fa-graduation-cap" style="color: #36a2eb; margin-right: 10px;"></i> Studnt Bulk Update
+                </a>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- Student Promotion Panel -->
 <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(106, 90, 205, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #f9f8ff 100%);">
@@ -128,12 +237,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </div>
 </div>
 
-<!-- Student Information Panel -->
-<div class="col-lg-4 col-md-6 col-sm-12">
+
+</div>
+
+<div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(75, 192, 192, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #f5fffd 100%);">
         <div class="panel-heading" style="background: linear-gradient(135deg, #4bc0c0 0%, #2d8c8c 100%); color: white; padding: 15px 20px; border-bottom: none;">
             <h3 class="panel-title" style="font-weight: 400;">
-                <i class="fa fa-info-circle" style="margin-right: 8px;"></i> Student Information
+                <i class="fa fa-info-circle" style="margin-right: 8px;"></i> Student Deactive
                 <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
             </h3>
         </div>
@@ -144,7 +256,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 $sel_query = "Select * from class Order By classnumber";
                 $result = mysqli_query($link,$sel_query);
                 while($row = mysqli_fetch_assoc($result)) { ?>
-                <a href="studentdashboard.php?classnumber=<?php echo $row['classnumber']; ?>" class="list-group-item" style="border-left: none; border-right: none; padding: 10px 20px 10px 40px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
+                <a href="student_dashboard_deactive.php?classnumber=<?php echo $row['classnumber']; ?>" class="list-group-item" style="border-left: none; border-right: none; padding: 10px 20px 10px 40px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
                     <i class="fa fa-graduation-cap" style="color: #4bc0c0; margin-right: 10px;"></i> <?php echo $row['classname']; ?>
                 </a>
                 <?php } ?>
@@ -152,82 +264,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </div>
     </div>
 </div>
-</div>
-
-<div class="row">
-<!-- Student Details Panel -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(255, 159, 64, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #fffbf5 100%);">
-        <div class="panel-heading" style="background: linear-gradient(135deg, #ffa040 0%, #ff8000 100%); color: white; padding: 15px 20px; border-bottom: none;">
-            <h3 class="panel-title" style="font-weight: 400;">
-                <i class="fa fa-id-card" style="margin-right: 8px;"></i> Student Details
-                <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
-            </h3>
-        </div>
-        <div class="panel-body" style="padding: 0;">
-            <div class="list-group" style="margin-bottom: 0;">
-                <?php
-                require "interdb.php";
-                $sel_query = "Select * from class Order By classnumber";
-                $result = mysqli_query($link,$sel_query);
-                while($row = mysqli_fetch_assoc($result)) { ?>
-                <a href="studentdetailsdash.php?classnumber=<?php echo $row['classnumber']; ?>" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
-                    <i class="fa fa-graduation-cap" style="color: #ff8000; margin-right: 10px;"></i> <?php echo $row['classname']; ?>
-                </a>
-                <?php } ?>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Student Details (Bangla) Panel -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(54, 162, 235, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #f5f9ff 100%);">
-        <div class="panel-heading" style="background: linear-gradient(135deg, #36a2eb 0%, #1e78c1 100%); color: white; padding: 15px 20px; border-bottom: none;">
-            <h3 class="panel-title" style="font-weight: 400;">
-                <i class="fa fa-id-card-o" style="margin-right: 8px;"></i> Student Details (Bangla)
-                <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
-            </h3>
-        </div>
-        <div class="panel-body" style="padding: 0;">
-            <div class="list-group" style="margin-bottom: 0;">
-                <?php
-                require "interdb.php";
-                $sel_query = "Select * from class Order By classnumber";
-                $result = mysqli_query($link,$sel_query);
-                while($row = mysqli_fetch_assoc($result)) { ?>
-                <a href="studentdetailsdashbangla.php?classnumber=<?php echo $row['classnumber']; ?>" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
-                    <i class="fa fa-graduation-cap" style="color: #36a2eb; margin-right: 10px;"></i> <?php echo $row['classname']; ?>
-                </a>
-                <?php } ?>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Student Details (Bangla) Panel -->
-<div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="panel" style="border: none; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(54, 162, 235, 0.15); margin-bottom: 25px; background: linear-gradient(to bottom, #ffffff 0%, #f5f9ff 100%);">
-        <div class="panel-heading" style="background: linear-gradient(135deg, #36a2eb 0%, #1e78c1 100%); color: white; padding: 15px 20px; border-bottom: none;">
-            <h3 class="panel-title" style="font-weight: 400;">
-                <i class="fa fa-id-card-o" style="margin-right: 8px;"></i> Student Bulk Option
-                <span class="pull-right"><i class="fa fa-chevron-down"></i></span>
-            </h3>
-        </div>
-        <div class="panel-body" style="padding: 0;">
-            <div class="list-group" style="margin-bottom: 0;">
-                
-                <a href="bulk_student_entry.php" class="list-group-item" style="border-left: none; border-right: none; padding: 12px 20px; border-color: #f1f1f1; color: #555; transition: all 0.3s; border-bottom: 1px solid #f1f1f1;">
-                    <i class="fa fa-graduation-cap" style="color: #36a2eb; margin-right: 10px;"></i> Studnt Bulk Entry
-                </a>
-               
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
 </div>
 
 

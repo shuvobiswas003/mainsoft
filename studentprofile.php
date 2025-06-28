@@ -21,7 +21,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <div class="row">
     <div class="col-md-12">
-        <div class="panel panel-default">
+        <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Student Information</h3>
             </div>
@@ -47,13 +47,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <div class="row">
                 <div class="col-md-12">
                     <center>
-                        <h1 style="font-size: 50px;color: black;">
+                        <h1 style="font-size: 50px;color: #337ab7;">
                             <?php echo $row2['schoolname']?>
                         </h1>
-                        <h1 style="font-size: 20px;">
+                        <h1 style="font-size: 20px;color: #5bc0de;">
                             <?php echo $row2['schooladdress'];?>
                         </h1>
-                        <h1 style="font-size: 20px;">
+                        <h1 style="font-size: 20px;color: #5cb85c;">
                             <?php echo $row2['website'];?>
                         </h1>
                     </center>
@@ -64,19 +64,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <!--Print School Info END-->
         <div class="col-md-12">
             <center>
-                <h2>Student Information</h2>
+                <h2 style="color: #d9534f;">Student Information</h2>
                 <!--Image Part Start-->
             
             <!--Img Start-->
             <?php
             $imgsl=$row["imgname"];
-            if($imgsl=="IMG_0.png" OR $imgsl=""){
+            if($imgsl=="IMG_0.png" OR $imgsl==""){
             ?>
-            <img src="img/student/<?php echo $row['classnumber']; ?>/<?php echo $row['roll']; ?>.jpg" style="height: 150px;width:150px;border-radius: 50%;">
+            <img src="img/student/<?php echo $row['classnumber']; ?>/<?php echo $row['roll']; ?>.jpg" style="height: 150px;width:150px;border-radius: 50%;border: 5px solid #5cb85c;">
             <?php
             }else{
             ?>
-            <img src="img/student/<?php echo $row['imgname'];?>" style="height: 150px;width:150px;border-radius: 50%;">
+            <img src="img/student/<?php echo $row['imgname'];?>" style="height: 150px;width:150px;border-radius: 50%;border: 5px solid #5cb85c;">
 
             <?php
             }
@@ -84,123 +84,273 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <!--Img End-->
             <br>
                 
-                <h4>
+                <h4 style="color: #337ab7;">
                 <?php echo $row['name'];?><br> <?php echo $row['classname'];?> (<?php echo $row['classnumber'];?>) <br>
                 Roll:<?php echo $row['roll'];?>
                 Section:<?php echo $row['secgroup'];?>
                 </h4>
             </center>
         </div>
-        <div class="col-md-12">
-            <center>
-            <h2>Student Details Information</h2>
-            </center>
-        </div>
-        <div class="col-md-6">
-            <center>
-            <h3> Student Part(Bangla) </h3>
-            </center>
-            <div class="from-group">
-                <label for="" class="col-md-3">শিক্ষার্থীর নাম</label>
-                <h4><?php echo $row['nameb']?></h4>
-            </div>
-            <div class="from-group">
-                <label for="" class="col-md-3">পিতার নাম</label>
-                <h4><?php echo $row['fnameb']?></h4>
-            </div>
-            <div class="from-group">
-                <label for="" class="col-md-3">মাতার নাম</label>
-                <h4><?php echo $row['mnameb']?></h4>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <center>
-            <h3> Student Part(English) </h3>
-            </center>
-            <div class="from-group">
-                <label for="" class="col-md-3">Student Name</label>
-                <h4><?php echo $row['name']?></h4>
-            </div>
-            <div class="from-group">
-                <label for="" class="col-md-3">Father's Name</label>
-                <h4><?php echo $row['fname']?></h4>
-            </div>
-            <div class="from-group">
-                <label for="" class="col-md-3">Mother's Name</label>
-                <h4><?php echo $row['mname']?></h4>
-            </div>
-        </div>
-
-        <div class="col-md-12">
-            <center>
-                <h3>National Data Information</h3>
-            </center>
-        </div>
+        
+        <div class="row">
             <div class="col-md-6">
-                <div class="from-group">
-                <label for="" class="col-md-3">Birth ID No</label>
-                <h4><?php echo $row['birthid']?></h4>
-                <div class="from-group">
-                    <label for="" class="col-md-3">Date Of Birth</label>
-                    <h4><?php echo $row['dob']?></h4>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <center><h3> Student Part (Bangla) </h3></center>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="" class="col-md-4 control-label">শিক্ষার্থীর নাম</label>
+                            <div class="col-md-8">
+                                <p class="form-control-static"><?php echo $row['nameb']?></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-4 control-label">পিতার নাম</label>
+                            <div class="col-md-8">
+                                <p class="form-control-static"><?php echo $row['fnameb']?></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-4 control-label">মাতার নাম</label>
+                            <div class="col-md-8">
+                                <p class="form-control-static"><?php echo $row['mnameb']?></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            </div>
             <div class="col-md-6">
-                    
-            <div class="from-group">
-                <label for="" class="col-md-3">Father's NID</label>
-                <h4><?php echo $row['fnid']?></h4>
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <center><h3> Student Part (English) </h3></center>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="" class="col-md-4 control-label">Student Name</label>
+                            <div class="col-md-8">
+                                <p class="form-control-static"><?php echo $row['name']?></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-4 control-label">Father's Name</label>
+                            <div class="col-md-8">
+                                <p class="form-control-static"><?php echo $row['fname']?></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-4 control-label">Mother's Name</label>
+                            <div class="col-md-8">
+                                <p class="form-control-static"><?php echo $row['mname']?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="from-group">
-                <label for="" class="col-md-3">Mother's NID</label>
-                <h4><?php echo $row['mnid']?></h4>
-            </div>
-                    
-            </div>
-
-        <div class="col-md-12">
-            <center>
-                <h3>Academic And Contuct Info</h3>
-            </center>
         </div>
         
-        <div class="col-md-6">
-            <div class="from-group">
-                <label for="" class="col-md-3">Address</label>
-                <h4><?php echo $row['address']?></h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <center><h3>National Data Information</h3></center>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Birth ID No</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['birthid']?></p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Date Of Birth</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['dob']?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Father's NID</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['fnid']?></p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Mother's NID</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['mnid']?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-             <div class="from-group">
-                <label for="" class="col-md-3">Mobile Number</label>
-                <h4><?php echo $row['mobile']?></h4>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <center><h3>Academic And Contact Info</h3></center>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Address</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['address']?></p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Roll</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['roll']?></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Mobile Number</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['mobile']?></p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-md-4 control-label">Section</label>
+                                <div class="col-md-8">
+                                    <p class="form-control-static"><?php echo $row['secgroup']?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="from-group">
-                <label for="" class="col-md-3">Roll</label>
-                <h4><?php echo $row['roll']?></h4>
+        
+        <!-- Payment Information Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: #5bc0de;color: white;">
+                        <h3 class="panel-title">Payment Information</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped table-hover">
+                                <thead>
+                                    <tr style="background-color: #337ab7;color: white;">
+                                        <th>#</th>
+                                        <th>Payment Category</th>
+                                        <th>Total Amount</th>
+                                        <th>Paid Amount</th>
+                                        <th>Due Amount</th>
+                                        <th>Status</th>
+                                        <th>Date</th>
+                                        <th>Payment Details</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                    $payment_query = "SELECT * FROM studentpayment WHERE stuid='$stuuniqid'";
+                                    $payment_result = mysqli_query($link, $payment_query);
+                                    $payment_count = 1;
+                                    
+                                    while($payment_row = mysqli_fetch_assoc($payment_result)) {
+                                        // Get payment details from invoicetrx
+                                        $iid = $payment_row['puniid'];
+                                        $payment_details_query = "SELECT * FROM invoicetrx WHERE iid='$iid'";
+                                        $payment_details_result = mysqli_query($link, $payment_details_query);
+                                        $payment_details = mysqli_fetch_assoc($payment_details_result);
+                                    ?>
+                                    <tr>
+                                        <td><?php echo $payment_count; ?></td>
+                                        <td><?php echo $payment_row['pcatid']; ?></td>
+                                        <td><?php echo $payment_row['total']; ?></td>
+                                        <td><?php echo $payment_row['totalpay']; ?></td>
+                                        <td><?php echo $payment_row['due']; ?></td>
+                                        <td>
+                                            <?php if($payment_row['status'] == 'Paid'): ?>
+                                                <span class="label label-success"><?php echo $payment_row['status']; ?></span>
+                                            <?php else: ?>
+                                                <span class="label label-danger"><?php echo $payment_row['status']; ?></span>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td><?php echo $payment_row['date']; ?></td>
+                                        <td>
+                                            <?php if(!empty($payment_details)): ?>
+                                                Amount: <?php echo $payment_details['amount']; ?><br>
+                                                Date: <?php echo $payment_details['date']; ?><br>
+                                                Method: <?php echo ($payment_details['method'] == '' || $payment_details['method'] == 'manual') ? 'Offline' : $payment_details['method']; ?>
+                                            <?php else: ?>
+                                                No payment details found
+                                            <?php endif; ?>
+                                        </td>
+                                    </tr>
+                                    <?php $payment_count++; } ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-             <div class="from-group">
-                <label for="" class="col-md-3">Section</label>
-                <h4><?php echo $row['secgroup']?></h4>
+        
+        <!-- Attendance Information Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: #5cb85c;color: white;">
+                        <h3 class="panel-title">Attendance Information</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped table-hover">
+                                <thead>
+                                    <tr style="background-color: #337ab7;color: white;">
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Time</th>
+                                        <th>Status</th>
+                                        <th>Clock In/Out</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                    $attendance_query = "SELECT * FROM stuattdancedata WHERE stuid='$stuuniqid' ORDER BY adate DESC LIMIT 100";
+                                    $attendance_result = mysqli_query($link, $attendance_query);
+                                    $attendance_count = 1;
+                                    
+                                    while($attendance_row = mysqli_fetch_assoc($attendance_result)) {
+                                    ?>
+                                    <tr>
+                                        <td><?php echo $attendance_count; ?></td>
+                                        <td><?php echo $attendance_row['adate']; ?></td>
+                                        <td><?php echo $attendance_row['ctime']; ?></td>
+                                        <td>
+                                            <?php if($attendance_row['status'] == 'Present'): ?>
+                                                <span class="label label-success"><?php echo $attendance_row['status']; ?></span>
+                                            <?php else: ?>
+                                                <span class="label label-danger"><?php echo $attendance_row['status']; ?></span>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td><?php echo $attendance_row['cinout']; ?></td>
+                                    </tr>
+                                    <?php $attendance_count++; } ?>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
             </div>
         </div>
 
-            
-
-        </div>
-    
 <?php $count++; } ?>
 
-
-
-
-<!--Below System Part -->
 </div>
 </div>
 </div>

@@ -83,7 +83,7 @@ if ($view_class && $view_section) {
     
     $query = "SELECT s.* FROM subject s 
               WHERE s.classnumber = ? AND s.secgroup = ? 
-              ORDER BY s.subname";
+              ORDER BY s.subcode";
     $stmt = $link->prepare($query);
     $stmt->bind_param("ss", $class['classnumber'], $view_section);
     $stmt->execute();

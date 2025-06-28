@@ -63,6 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new']) && $_POST['new'
     $roll = intval($_POST['roll'] ?? 0);
     $address = mysqli_real_escape_string($link, $_POST['address'] ?? '');
     $mobile = mysqli_real_escape_string($link, $_POST['mobile'] ?? '');
+    $old_uniqid = $row['uniqid']; // Store old uniqid for payment updates
 
     $imgname = $row['imgname'] ?? '';
     if (isset($_FILES['profile_pic']) && $_FILES['profile_pic']['error'] === UPLOAD_ERR_OK) {
@@ -89,28 +90,110 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new']) && $_POST['new'
 
     $uniqid = $classnumber . $secgroup . $roll;
 
-    $sql = "UPDATE student SET 
-            nameb=?, fnameb=?, mnameb=?, name=?, fname=?, mname=?, 
-            birthid=?, dob=?, fnid=?, mnid=?, address=?, sex=?, religion=?,
-            classnumber=?, classname=?, secgroup=?, roll=?, mobile=?, uniqid=?, imgname=?
-            WHERE id=?";
+    // Begin transaction
+    $link->begin_transaction();
 
-    $stmt = $link->prepare($sql);
-    if (!$stmt) {
-        die("Prepare failed: " . $link->error);
-    }
+    try {
+        // Update student information
+        $sql = "UPDATE student SET 
+                nameb=?, fnameb=?, mnameb=?, name=?, fname=?, mname=?, 
+                birthid=?, dob=?, fnid=?, mnid=?, address=?, sex=?, religion=?,
+                classnumber=?, classname=?, secgroup=?, roll=?, mobile=?, uniqid=?, imgname=?
+                WHERE id=?";
 
-    $stmt->bind_param(
-        "ssssssssssssssisssssi",
-        $nameb, $fnameb, $mnameb, $name, $fname, $mname,
-        $brithid, $dob, $fnid, $mnid, $address, $sex, $religion,
-        $classnumber, $classname, $secgroup, $roll, $mobile, $uniqid, $imgname,
-        $id
-    );
+        $stmt = $link->prepare($sql);
+        if (!$stmt) {
+            throw new Exception("Prepare failed: " . $link->error);
+        }
 
-    if ($stmt->execute()) {
+        $stmt->bind_param(
+            "ssssssssssssssisssssi",
+            $nameb, $fnameb, $mnameb, $name, $fname, $mname,
+            $brithid, $dob, $fnid, $mnid, $address, $sex, $religion,
+            $classnumber, $classname, $secgroup, $roll, $mobile, $uniqid, $imgname,
+            $id
+        );
+
+        if (!$stmt->execute()) {
+            throw new Exception("Student update failed: " . $stmt->error);
+        }
+        $stmt->close();
+
+        // Escape and sanitize all variables
+$secgroup_esc = mysqli_real_escape_string($link, $secgroup);
+$name_esc = mysqli_real_escape_string($link, $name);
+$uniqid_esc = mysqli_real_escape_string($link, $uniqid);
+$old_uniqid_esc = mysqli_real_escape_string($link, $old_uniqid);
+$roll_int = intval($roll);
+
+// Update studentpayment table with direct SQL
+$update_payment_sql = "
+    UPDATE studentpayment SET 
+        secgroupname = '$secgroup_esc', 
+        roll = $roll_int, 
+        stuname = '$name_esc',
+        stuid = '$uniqid_esc'
+    WHERE stuid = '$old_uniqid_esc'
+";
+
+if (!$link->query($update_payment_sql)) {
+    throw new Exception("Payment update failed: " . $link->error);
+}
+
+        // If uniqid changed, update puniid in studentpayment and iid in invoicetrx
+        if ($old_uniqid != $uniqid) {
+            // Get all payment records with their pcatid
+            $payment_query = "SELECT id, pcatid, puniid FROM studentpayment WHERE stuid = ?";
+            $payment_stmt = $link->prepare($payment_query);
+            if (!$payment_stmt) {
+                throw new Exception("Payment query prepare failed: " . $link->error);
+            }
+            $payment_stmt->bind_param("s", $uniqid);
+            if (!$payment_stmt->execute()) {
+                throw new Exception("Payment query failed: " . $payment_stmt->error);
+            }
+            $payment_result = $payment_stmt->get_result();
+            
+            while ($payment_row = $payment_result->fetch_assoc()) {
+                $payment_id = $payment_row['id'];
+                $pcatid = $payment_row['pcatid'];
+                $old_puniid = $payment_row['puniid'];
+                $new_puniid = $pcatid . $uniqid; // Format: pcatid + stuid
+                
+                // Update puniid in studentpayment
+                $update_puniid_sql = "UPDATE studentpayment SET puniid = ? WHERE id = ?";
+                $update_puniid_stmt = $link->prepare($update_puniid_sql);
+                if (!$update_puniid_stmt) {
+                    throw new Exception("Puniid update prepare failed: " . $link->error);
+                }
+                $update_puniid_stmt->bind_param("si", $new_puniid, $payment_id);
+                if (!$update_puniid_stmt->execute()) {
+                    throw new Exception("Puniid update failed: " . $update_puniid_stmt->error);
+                }
+                $update_puniid_stmt->close();
+                
+                // Update corresponding record in invoicetrx
+                if (!empty($old_puniid)) {
+                    $update_invoice_sql = "UPDATE invoicetrx SET iid = ? WHERE iid = ?";
+                    $update_invoice_stmt = $link->prepare($update_invoice_sql);
+                    if (!$update_invoice_stmt) {
+                        throw new Exception("Invoice update prepare failed: " . $link->error);
+                    }
+                    $update_invoice_stmt->bind_param("ss", $new_puniid, $old_puniid);
+                    if (!$update_invoice_stmt->execute()) {
+                        throw new Exception("Invoice update failed: " . $update_invoice_stmt->error);
+                    }
+                    $update_invoice_stmt->close();
+                }
+            }
+            $payment_stmt->close();
+        }
+
+        // Commit transaction
+        $link->commit();
+
         $status = "<div class='alert alert-success alert-dismissible fade show' role='alert'>
-            <strong>Success!</strong> Student updated successfully.
+            <strong>Success!</strong> Student and all related records updated successfully.
             <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
         </div>";
 
@@ -121,14 +204,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new']) && $_POST['new'
         $result = $refresh_stmt->get_result();
         $row = $result->fetch_assoc();
         $refresh_stmt->close();
-    } else {
+
+    } catch (Exception $e) {
+        // Rollback transaction on error
+        $link->rollback();
         $status = "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-            <strong>Error!</strong> Unable to update student: " . $stmt->error . "
+            <strong>Error!</strong> " . $e->getMessage() . "
             <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
         </div>";
     }
-
-    $stmt->close();
 }
 
 // Fetch available classes from database
@@ -882,17 +966,6 @@ $classes_result = $link->query($classes_query);
                 }
             });
             
-            // Validate mobile number format
-            const mobileInput = $('input[name="mobile"]');
-            const mobileRegex = /^[0-9]{11}$/;
-            if (mobileInput.val() && !mobileRegex.test(mobileInput.val())) {
-                isValid = false;
-                mobileInput.addClass('is-invalid');
-                mobileInput.after('<div class="invalid-feedback">Please enter a valid 11-digit mobile number</div>');
-            } else {
-                mobileInput.removeClass('is-invalid');
-                mobileInput.next('.invalid-feedback').remove();
-            }
             
             // Validate birth date (not in future)
             const dobInput = $('input[name="sdob"]');

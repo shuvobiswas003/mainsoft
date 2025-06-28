@@ -76,7 +76,7 @@ $rfid=$_POST['rfid'];
 $squniqid=$classnumber.$secgroupname.$roll;
 
 require 'interdb.php';
-$sql="INSERT into rfid(stuid,rfid) VALUES ('$squniqid','$rfid') ON DUPLICATE KEY UPDATE rfid='$rfid'";
+$sql="INSERT into rfid(stuid,rfid) VALUES ('$squniqid','$rfid') ON DUPLICATE KEY UPDATE rfid='$rfid',stuid='$squniqid'";
 if(mysqli_query($link, $sql)){
         echo "<h3 style='color:green;'>Rfid Asign Successfuly </h1>.";
     } else{

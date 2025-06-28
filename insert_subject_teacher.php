@@ -68,7 +68,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     </div>
 <div class="panel-body"> 
     <form action="insert_sub_teacher_add_data.php" method="POST" target="_blank">
-        
+        <div class="table-responsive">
         <table class="table table-striped table-bordered">
             <thead>
                 <tr>
@@ -171,6 +171,7 @@ if ($result6 && mysqli_num_rows($result6) > 0) {
         <?php $count++;}?>
         </tbody>
         </table>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <input type="submit" value="Add Teacher" class="btn btn-primary">

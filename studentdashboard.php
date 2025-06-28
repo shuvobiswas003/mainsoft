@@ -81,12 +81,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                                                             <a href="studentedit.php?id=<?php echo $row['id'];?>" class="btn btn-primary" data-toggle="tooltip" title="Edit">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
-                                                                            <a href="studentphotoedit.php?id=<?php echo $row['id'];?>" class="btn btn-info" data-toggle="tooltip" title="Update Photo">
-                                                                                <i class="fa fa-camera"></i>
-                                                                            </a>
+                                                                            
                                                                             <a href="studentprofile.php?id=<?php echo $row['id'];?>" class="btn btn-success" data-toggle="tooltip" title="View Profile">
                                                                                 <i class="fa fa-user"></i>
                                                                             </a>
+
+                                                                            <a href="student_deactivate.php?id=<?php echo $row['id'];?>" class="btn btn-warning ms-1" data-bs-toggle="tooltip" title="Deactivate" onclick="return confirm('Are you sure you want to deactivate this student?');">
+    <i class="fa fa-ban"></i>Deactive
+</a>
+
                                                                             <a href="studentdel.php?id=<?php echo $row['id'];?>&classnumber=<?php echo $row['classnumber'];?>&uniqid=<?php echo $row['uniqid'];?>" 
                                                                                class="btn btn-danger" 
                                                                                data-toggle="tooltip" 
